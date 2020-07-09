@@ -1,0 +1,28 @@
+{
+  "cell_lines" : [
+    {
+      "conditions": []
+    }
+  ],
+  "parameters": [
+    {
+      "name": "$u_AKT",
+      "values": [0.1, 1, 10]
+    }, {
+      "name": "$d_FOXO3",
+      "values": [0.1, 1, 10]
+    }, {
+      "name": "$u_BIM",
+      "values": [0.1, 1, 10]
+    }, {
+      "name": "$d_BIM",
+      "values": [0.1, 1, 10]
+    }, {
+      "name": "$d_BAD",
+      "values": [0.1, 1, 10]
+    }, {
+      "name": "$d_mTORC1",
+      "values": [0.1, 1, 10]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+Node EGFR {
+  logic = (!ERK & EGFR);
+  rate_up = @logic ? $u_EGFR : 0;
+  rate_down = @logic ? 0 : $d_EGFR;
+}
+
+Node RAS {
+  logic = EGFR;
+  rate_up = @logic ? $u_RAS : 0;
+  rate_down = @logic ? 0 : $d_RAS;
+}
+
+Node BRAF {
+  logic = (RAS & !ERK);
+  rate_up = @logic ? $u_BRAF : 0;
+  rate_down = @logic ? 0 : $d_BRAF;
+}
+
+Node MEK {
+  logic = (BRAF);
+  rate_up = @logic ? $u_MEK : 0;
+  rate_down = @logic ? 0 : $d_MEK;
+}
+
+
+Node ERK {
+  logic = (MEK & !p38);
+  rate_up = @logic ? $u_ERK : 0;
+  rate_down = @logic ? 0 : $d_ERK;
+}
+
+Node p38 {
+  logic = (ATM_ATR|BRAF);
+  rate_up = @logic ? $u_p38 : 0;
+  rate_down = @logic ? 0 : $d_p38;
+}
+
+Node CHEK1 {
+  logic = (ATM_ATR|p38);
+  rate_up = @logic ? $u_CHEK1 : 0;
+  rate_down = @logic ? 0 : $d_CHEK1;
+}
+
+
+Node MK2 {
+  logic = p38&ATM_ATR;
+  rate_up = @logic ? $u_MK2 : 0;
+  rate_down = @logic ? 0 : $d_MK2;
+}
+
+Node CDC25B_C {
+  logic = (!CHEK1&!MK2&!CASP3)&CDK1;
+  rate_up = @logic ? $u_CDC25B_C : 0;
+  rate_down = @logic ? 0 : $d_CDC25B_C;
+}
+
+Node CDC25A {
+  logic = (ERK|CDC25A|CDK1) & (!CHEK1&!MK2&!CHEK2&!TP53&!CASP3);
+  rate_up = @logic ? $u_CDC25A : 0;
+  rate_down = @logic ? 0 : $d_CDC25A;
+}
+
+Node CDK1 {
+  logic = CDC25A|CDC25B_C;
+  rate_up = @logic ? $u_CDK1 : 0;
+  rate_down = @logic ? 0 : $d_CDK1;
+}
+
+Node DSB_SSB {
+  logic = DSB_SSB&!DNArepair;
+  rate_up = @logic ? $u_DSB_SSB : 0;
+  rate_down = @logic ? 0 : $d_DSB_SSB;
+}
+
+Node DNArepair {
+  logic = ATM_ATR&!CASP3;
+  rate_up = @logic ? $u_DNArepair : 0;
+  rate_down = @logic ? 0 : $d_DNArepair;
+}
+
+Node ATM_ATR {
+  logic = (DSB_SSB);
+  rate_up = @logic ? $u_ATM_ATR : 0;
+  rate_down = @logic ? 0 : $d_ATM_ATR;
+}
+
+Node CHEK2 {
+  logic = (ATM_ATR);
+  rate_up = @logic ? $u_CHEK2 : 0;
+  rate_down = @logic ? 0 : $d_CHEK2;
+}
+
+Node TP53 {
+  logic = !ERK & (CHEK2|ATM_ATR);
+  rate_up = @logic ? $u_TP53 : 0;
+  rate_down = @logic ? 0 : $d_TP53;
+}
+
+Node Proliferation {
+  logic = (!TP53 & CDK1) | Proliferation;
+  rate_up = @logic ? $u_Proliferation : 0;
+  rate_down = @logic ? 0 : $d_Proliferation;
+}
+
+
+Node CASP3 {
+  logic = (DSB_SSB&Proliferation) | (DSB_SSB&TP53) | CASP3;
+  rate_up = @logic ? $u_CASP3 : 0;
+  rate_down = @logic ? 0 : $d_CASP3;
+}
+

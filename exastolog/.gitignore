@@ -1,0 +1,38 @@
+# ignore folders of other matlab toolboxes
+
+altmany-export_fig-acfd348/
+heatmaps/
+old_functions_materials/
+anneal/
+distinguishable_colors/
+redblue/
+colosys/
+tight_subplot/
+doc/manual/
+doc/manuscript/
+doc/sample_plots/
+# unused functions
+# functions/fcn_K_ode.m
+# zip of existing files
+exact_stochlog_toolbox.zip
+model_files/EMT_cohen/
+model_files/other/
+model_files/test_models.cys
+model_files/maboss/candidate_models/
+# compiled files runtime
+ExaStoLog/
+runtime_commands.m
+# experimental script
+stg_storage.m
+# cytoscape
+model_expansion.cys
+
+# files to ignore M~ files
+*m~
+*md~
+*dat
+sandbox.m
+single_example_commands.m
+# wrapper.mlx
+doc/README.html
+

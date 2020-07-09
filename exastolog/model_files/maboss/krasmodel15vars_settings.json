@@ -1,0 +1,28 @@
+{
+  "cell_lines" : [
+    {
+      "conditions": []
+    }
+  ],
+  "parameters": [
+    {
+      "name": "$u_CHEK1",
+      "values": [0.1, 1, 10]
+    }, {
+      "name": "$u_HRR2",
+      "values": [0.1, 1, 10]
+    }, {
+      "name": "$u_MAPKAPK2",
+      "values": [0.1, 1, 10]
+    }, {
+      "name": "$u_CDC25B",
+      "values": [0.1, 1, 10]
+    }, {
+      "name": "$u_ATR",
+      "values": [0.1, 1, 10]
+    }, {
+      "name": "$u_ATM",
+      "values": [0.1, 1, 10]
+    }
+  ]
+}

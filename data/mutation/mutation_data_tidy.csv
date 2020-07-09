@@ -1,0 +1,175 @@
+Cell_line,variable,value,num_mut,color
+Caco2,KRAS_status,wt,,wt or MSS
+Caco2,BRAF_status,wt,,wt or MSS
+Caco2,TP53_status,E204*,1,mutation 1
+Caco2,MSI_MSS,MSS,,wt or MSS
+Caco2,CTNNB1,G245A,1,mutation 1
+Caco2,HDAC3,G296V,1,mutation 1
+Caco2,HDAC2,"R82S,
+ 82insS",2,mutation 2
+Caco2,ATM,D351H,1,mutation 1
+Caco2,ERBB3,D857N,1,mutation 1
+Caco2,SMAD4,D351H,1,mutation 1
+Caco2,ERCC1,F231L,1,mutation 1
+Caco2,TIAM1,G247M,1,mutation 1
+Car1,KRAS_status,"NA",,no data
+Car1,BRAF_status,"NA",,no data
+Car1,TP53_status,?,,no data
+Car1,MSI_MSS,MSS,,wt or MSS
+Colo205,KRAS_status,wt,,wt or MSS
+Colo205,BRAF_status,V600E,1,mutation 1
+Colo205,TP53_status,wt,,wt or MSS
+Colo205,MSI_MSS,MSS,,wt or MSS
+Colo205,CTNNB1,N287S,1,mutation 1
+DLD1etmut,KRAS_status,G13D,1,mutation 1
+DLD1etmut,BRAF_status,wt,,wt or MSS
+DLD1etmut,TP53_status,mut,1,mutation 1
+DLD1etmut,MSI_MSS,"NA",,no data
+DLD1etwt,KRAS_status,wt,,wt or MSS
+DLD1etwt,BRAF_status,wt,,wt or MSS
+DLD1etwt,TP53_status,S241F,1,mutation 1
+DLD1etwt,MSI_MSS,"NA",,no data
+DLD1mut,KRAS_status,G13D,1,mutation 1
+DLD1mut,BRAF_status,wt,,wt or MSS
+DLD1mut,TP53_status,S241F,1,mutation 1
+DLD1mut,MSI_MSS,MSI,1,mutation 1
+DLD1mut,ERBB3,"R667H,
+ P1142H",2,mutation 2
+DLD1mut,DPYD,P1010H,1,mutation 1
+DLD1mut,ERBB4,L369I,1,mutation 1
+DLD1mut,TGFBR2,L477P,1,mutation 1
+DLD1mut,PIK3CA,"E545K,
+ D549N",2,mutation 2
+DLD1mut,APC,"K993N,
+ SG1415SGfs*2",2,mutation 2
+DLD1mut,CSMD3,T2957N,1,mutation 1
+DLD1mut,ACVR1B,V487D,1,mutation 1
+DLD1mut,CDH11,G96*,1,mutation 1
+DLD1mut,AMER1,E582*,1,mutation 1
+DLD1mut,TENM1,T479A,1,mutation 1
+DLD1wt,KRAS_status,A146T,1,mutation 1
+DLD1wt,BRAF_status,wt,,wt or MSS
+DLD1wt,TP53_status,S241F,1,mutation 1
+DLD1wt,MSI_MSS,"NA",,no data
+DLD1wt,ERBB3,"R667H,
+ P1142H",2,mutation 2
+DLD1wt,DPYD,P1010H,1,mutation 1
+DLD1wt,ERBB4,L369I,1,mutation 1
+DLD1wt,TGFBR2,L477P,1,mutation 1
+DLD1wt,PIK3CA,"E545K,
+ D549N",2,mutation 2
+DLD1wt,APC,"K993N,
+ SG1415SGfs*2",2,mutation 2
+DLD1wt,CSMD3,T2957N,1,mutation 1
+DLD1wt,ACVR1B,V487D,1,mutation 1
+DLD1wt,CDH11,G96*,1,mutation 1
+DLD1wt,AMER1,E582*,1,mutation 1
+DLD1wt,TENM1,T479A,1,mutation 1
+DLD1wt,NRAS,G12C,1,mutation 1
+HCEC-1ct,KRAS_status,"NA",,no data
+HCEC-1ct,BRAF_status,"NA",,no data
+HCEC-1ct,TP53_status,?,,no data
+HCEC-1ct,MSI_MSS,(MSI),1,mutation 1
+HCT116,KRAS_status,G13D,1,mutation 1
+HCT116,BRAF_status,wt,,wt or MSS
+HCT116,TP53_status,Y236C,1,mutation 1
+HCT116,MSI_MSS,MSI,1,mutation 1
+HCT116,CTNNB1,44delP,1,mutation 1
+HCT116,ERBB3,Q261*,1,mutation 1
+HCT116,PIK3CA,H1047R,1,mutation 1
+HCT116,MLH1,S252*,1,mutation 1
+HCT116,(HDAC3,G296V),1,mutation 1
+HCT116,POLE,E2140K,1,mutation 1
+HT29 typ,KRAS_status,wt,,wt or MSS
+HT29 typ,BRAF_status,V600E,1,mutation 1
+HT29 typ,TP53_status,R273H,1,mutation 1
+HT29 typ,MSI_MSS,MSS,,wt or MSS
+HT29 typ,SMAD4,Q311*,1,mutation 1
+HT29 typ,ERBB4,H374Q,1,mutation 1
+HT29 typ,TGFBR2,S578T,1,mutation 1
+HT29 typ,PIK3CA,P449T,1,mutation 1
+HT29 typ,APC,E853*,1,mutation 1
+LS180,KRAS_status,G12D,1,mutation 1
+LS180,BRAF_status,D211G,1,mutation 1
+LS180,TP53_status,wt,,wt or MSS
+LS180,MSI_MSS,MSI,1,mutation 1
+LS180,CTNNB1,S45F,1,mutation 1
+LS180,PIK3CA,H1047R,1,mutation 1
+LS180,ARID1A,"1848dupG,
+ GG1847GGfs*5",2,mutation 2
+LS180,SOX11,A385T,1,mutation 1
+LS180,KDR,A10T,1,mutation 1
+LS180,STK11,I46T,1,mutation 1
+RKO,KRAS_status,wt,,wt or MSS
+RKO,BRAF_status,V600E,1,mutation 1
+RKO,TP53_status,?,,no data
+RKO,MSI_MSS,MSI,1,mutation 1
+SW1417,KRAS_status,wt,,wt or MSS
+SW1417,BRAF_status,V600E,1,mutation 1
+SW1417,TP53_status,?,,no data
+SW1417,MSI_MSS,MSS,,wt or MSS
+SW403,KRAS_status,G12V,1,mutation 1
+SW403,BRAF_status,wt,,wt or MSS
+SW403,TP53_status,E51*,1,mutation 1
+SW403,MSI_MSS,MSS,,wt or MSS
+SW403,PIK3CA,Q546K,1,mutation 1
+SW403,APC,"N125K,
+ SF1196SFfs*67,
+ S1198L,
+ S127*",4,mutation 4
+SW403,(HDAC3,G296V),1,mutation 1
+SW48-,KRAS_status,wt,,wt or MSS
+SW48-,BRAF_status,wt,,wt or MSS
+SW48-,TP53_status,wt,,wt or MSS
+SW48-,MSI_MSS,MSI,1,mutation 1
+SW48-,CTNNB1,S33Y,1,mutation 1
+SW48-,PIK3CA,G914R,1,mutation 1
+SW48-,CSMD3,W3459R,1,mutation 1
+SW48-,ACVR1B,R485*,1,mutation 1
+SW48-,(HDAC3,G286V),1,mutation 1
+SW48-,FBXW7,S668Vfs*38,1,mutation 1
+SW48-,EGFR,G719S,1,mutation 1
+SW48-,DAPK1,"GY1299VQfs*33,
+ Y1300D,
+ Y1300Tfs*33",3,mutation 3
+SW48-,AMER,G80C,1,mutation 1
+SW48-,GRIA,A313T,1,mutation 1
+SW480,KRAS_status,G12V,1,mutation 1
+SW480,BRAF_status,wt,,wt or MSS
+SW480,TP53_status,P309S; R273H,1,mutation 1
+SW480,MSI_MSS,MSS,,wt or MSS
+SW480,ATM,R2461P,1,mutation 1
+SW480,(HDAC3,G296V),1,mutation 1
+SW480,GLI3,A1139T,1,mutation 1
+SW620,KRAS_status,G12V,1,mutation 1
+SW620,BRAF_status,wt,,wt or MSS
+SW620,TP53_status,P309S; R273H,1,mutation 1
+SW620,MSI_MSS,MSS,,wt or MSS
+SW620,WNK3,S905N,1,mutation 1
+SW837,KRAS_status,G12C,1,mutation 1
+SW837,BRAF_status,wt,,wt or MSS
+SW837,TP53_status,R248W,1,mutation 1
+SW837,MSI_MSS,MSS,,wt or MSS
+SW837,APC,"R213*,
+ R1450*",2,mutation 2
+SW837,AMER1,R497*,1,mutation 1
+SW837,(HDAC3,G296V),1,mutation 1
+SW948,KRAS_status,Q61L,1,mutation 1
+SW948,BRAF_status,wt,,wt or MSS
+SW948,TP53_status,T118Qfs*4,1,mutation 1
+SW948,MSI_MSS,MSS,,wt or MSS
+SW948,SMAD4,D537Y,1,mutation 1
+SW948,PIK3CA,E542K,1,mutation 1
+SW948,APC,"R1114*,
+ Q1429*",2,mutation 2
+SW948,EPHA3,R83G,1,mutation 1
+SW948,NOTCH3,G1494C,1,mutation 1
+WiDR,KRAS_status,wt,,wt or MSS
+WiDR,BRAF_status,V600E,1,mutation 1
+WiDR,TP53_status,R273H,1,mutation 1
+WiDR,MSI_MSS,MSS,,wt or MSS
+WiDR,SMAD4,Q311*,1,mutation 1
+WiDR,ERBB4,H374Q,1,mutation 1
+WiDR,TGFBR2,S578T,1,mutation 1
+WiDR,PIK3CA,P449T,1,mutation 1
+WiDR,APC,E853*,1,mutation 1

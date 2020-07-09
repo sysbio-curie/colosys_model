@@ -1,0 +1,610 @@
+chek1i,mk2i,etoposide,treatment,cell_line,expertype,time,variable,value
+0,0,0,DMSO,HCT116,wes,NA,pChk1_S296,1
+0.5,0,0,0.5µM Chk1i,HCT116,wes,NA,pChk1_S296,0.607
+1,0,0,1µM Chk1i,HCT116,wes,NA,pChk1_S296,0.42
+0,2.5,0,2.5µM Mk2i,HCT116,wes,NA,pChk1_S296,0.939
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,wes,NA,pChk1_S296,0.288
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,wes,NA,pChk1_S296,0.174
+0,0,42,42µM etoposide (2h),HCT116,wes,NA,pChk1_S296,3.725
+0,0,0,DMSO,SW620,wes,NA,pChk1_S296,1
+0.5,0,0,0.5µM Chk1i,SW620,wes,NA,pChk1_S296,0.184
+1,0,0,1µM Chk1i,SW620,wes,NA,pChk1_S296,0.118
+0,2.5,0,2.5µM Mk2i,SW620,wes,NA,pChk1_S296,0.951
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,wes,NA,pChk1_S296,0.193
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,wes,NA,pChk1_S296,0.076
+0,0,42,42µM etoposide (2h),SW620,wes,NA,pChk1_S296,11.01
+0,0,0,DMSO,SW948,wes,NA,pChk1_S296,1
+0.5,0,0,0.5µM Chk1i,SW948,wes,NA,pChk1_S296,0.236
+1,0,0,1µM Chk1i,SW948,wes,NA,pChk1_S296,0.22
+0,2.5,0,2.5µM Mk2i,SW948,wes,NA,pChk1_S296,2.605
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,wes,NA,pChk1_S296,0.174
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,wes,NA,pChk1_S296,0.047
+0,0,42,42µM etoposide (2h),SW948,wes,NA,pChk1_S296,6.202
+0,0,0,DMSO,HCT116,wes,NA,pHSP27_S82,1
+0.5,0,0,0.5µM Chk1i,HCT116,wes,NA,pHSP27_S82,1.447
+1,0,0,1µM Chk1i,HCT116,wes,NA,pHSP27_S82,1.911
+0,2.5,0,2.5µM Mk2i,HCT116,wes,NA,pHSP27_S82,0.955
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,wes,NA,pHSP27_S82,0.659
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,wes,NA,pHSP27_S82,0.504
+0,0,42,42µM etoposide (2h),HCT116,wes,NA,pHSP27_S82,2.329
+0,0,0,DMSO,SW620,wes,NA,pHSP27_S82,1
+0.5,0,0,0.5µM Chk1i,SW620,wes,NA,pHSP27_S82,0.738
+1,0,0,1µM Chk1i,SW620,wes,NA,pHSP27_S82,0.536
+0,2.5,0,2.5µM Mk2i,SW620,wes,NA,pHSP27_S82,0.293
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,wes,NA,pHSP27_S82,0.196
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,wes,NA,pHSP27_S82,0.485
+0,0,42,42µM etoposide (2h),SW620,wes,NA,pHSP27_S82,2.419
+0,0,0,DMSO,SW948,wes,NA,pHSP27_S82,1
+0.5,0,0,0.5µM Chk1i,SW948,wes,NA,pHSP27_S82,1.041
+1,0,0,1µM Chk1i,SW948,wes,NA,pHSP27_S82,0.871
+0,2.5,0,2.5µM Mk2i,SW948,wes,NA,pHSP27_S82,0.406
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,wes,NA,pHSP27_S82,0.332
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,wes,NA,pHSP27_S82,0.768
+0,0,42,42µM etoposide (2h),SW948,wes,NA,pHSP27_S82,1.281
+0,0,0,DMSO,HCT116,wes,NA,pCDC25B_S323,1
+0.5,0,0,0.5µM Chk1i,HCT116,wes,NA,pCDC25B_S323,1.173
+1,0,0,1µM Chk1i,HCT116,wes,NA,pCDC25B_S323,0.849
+0,2.5,0,2.5µM Mk2i,HCT116,wes,NA,pCDC25B_S323,1.219
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,wes,NA,pCDC25B_S323,0.84
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,wes,NA,pCDC25B_S323,0.693
+0,0,42,42µM etoposide (2h),HCT116,wes,NA,pCDC25B_S323,0.865
+0,0,0,DMSO,SW620,wes,NA,pCDC25B_S323,1
+0.5,0,0,0.5µM Chk1i,SW620,wes,NA,pCDC25B_S323,0.983
+1,0,0,1µM Chk1i,SW620,wes,NA,pCDC25B_S323,1.078
+0,2.5,0,2.5µM Mk2i,SW620,wes,NA,pCDC25B_S323,1.281
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,wes,NA,pCDC25B_S323,1.246
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,wes,NA,pCDC25B_S323,0.892
+0,0,42,42µM etoposide (2h),SW620,wes,NA,pCDC25B_S323,1.199
+0,0,0,DMSO,SW948,wes,NA,pCDC25B_S323,1
+0.5,0,0,0.5µM Chk1i,SW948,wes,NA,pCDC25B_S323,0.819
+1,0,0,1µM Chk1i,SW948,wes,NA,pCDC25B_S323,1.125
+0,2.5,0,2.5µM Mk2i,SW948,wes,NA,pCDC25B_S323,1.048
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,wes,NA,pCDC25B_S323,0.836
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,wes,NA,pCDC25B_S323,0.934
+0,0,42,42µM etoposide (2h),SW948,wes,NA,pCDC25B_S323,0.947
+0,0,0,DMSO,HCT116,wes,NA,pCDC2_Tyr15,1
+0.5,0,0,0.5µM Chk1i,HCT116,wes,NA,pCDC2_Tyr15,0.705
+1,0,0,1µM Chk1i,HCT116,wes,NA,pCDC2_Tyr15,0.724
+0,2.5,0,2.5µM Mk2i,HCT116,wes,NA,pCDC2_Tyr15,0.885
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,wes,NA,pCDC2_Tyr15,0.684
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,wes,NA,pCDC2_Tyr15,0.46
+0,0,42,42µM etoposide (2h),HCT116,wes,NA,pCDC2_Tyr15,1.103
+0,0,0,DMSO,SW620,wes,NA,pCDC2_Tyr15,1
+0.5,0,0,0.5µM Chk1i,SW620,wes,NA,pCDC2_Tyr15,0.663
+1,0,0,1µM Chk1i,SW620,wes,NA,pCDC2_Tyr15,0.581
+0,2.5,0,2.5µM Mk2i,SW620,wes,NA,pCDC2_Tyr15,0.842
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,wes,NA,pCDC2_Tyr15,0.641
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,wes,NA,pCDC2_Tyr15,0.334
+0,0,42,42µM etoposide (2h),SW620,wes,NA,pCDC2_Tyr15,1.32
+0,0,0,DMSO,SW948,wes,NA,pCDC2_Tyr15,1
+0.5,0,0,0.5µM Chk1i,SW948,wes,NA,pCDC2_Tyr15,1
+1,0,0,1µM Chk1i,SW948,wes,NA,pCDC2_Tyr15,1.058
+0,2.5,0,2.5µM Mk2i,SW948,wes,NA,pCDC2_Tyr15,0.912
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,wes,NA,pCDC2_Tyr15,0.846
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,wes,NA,pCDC2_Tyr15,1.156
+0,0,42,42µM etoposide (2h),SW948,wes,NA,pCDC2_Tyr15,1.826
+0,0,0,DMSO,HCT116,wes,NA,pCDK2_T14,1
+0.5,0,0,0.5µM Chk1i,HCT116,wes,NA,pCDK2_T14,1.066
+1,0,0,1µM Chk1i,HCT116,wes,NA,pCDK2_T14,1.272
+0,2.5,0,2.5µM Mk2i,HCT116,wes,NA,pCDK2_T14,1.271
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,wes,NA,pCDK2_T14,1.491
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,wes,NA,pCDK2_T14,1.275
+0,0,42,42µM etoposide (2h),HCT116,wes,NA,pCDK2_T14,1.107
+0,0,0,DMSO,SW620,wes,NA,pCDK2_T14,1
+0.5,0,0,0.5µM Chk1i,SW620,wes,NA,pCDK2_T14,0.759
+1,0,0,1µM Chk1i,SW620,wes,NA,pCDK2_T14,0.723
+0,2.5,0,2.5µM Mk2i,SW620,wes,NA,pCDK2_T14,1.137
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,wes,NA,pCDK2_T14,0.92
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,wes,NA,pCDK2_T14,0.611
+0,0,42,42µM etoposide (2h),SW620,wes,NA,pCDK2_T14,1.416
+0,0,0,DMSO,SW948,wes,NA,pCDK2_T14,1
+0.5,0,0,0.5µM Chk1i,SW948,wes,NA,pCDK2_T14,1.074
+1,0,0,1µM Chk1i,SW948,wes,NA,pCDK2_T14,1.283
+0,2.5,0,2.5µM Mk2i,SW948,wes,NA,pCDK2_T14,1.136
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,wes,NA,pCDK2_T14,0.938
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,wes,NA,pCDK2_T14,1.211
+0,0,42,42µM etoposide (2h),SW948,wes,NA,pCDK2_T14,1.51
+0,0,0,DMSO,HCT116,wes,NA,pCDC25C_Ser216,1
+0.5,0,0,0.5µM Chk1i,HCT116,wes,NA,pCDC25C_Ser216,1.122
+1,0,0,1µM Chk1i,HCT116,wes,NA,pCDC25C_Ser216,0.795
+0,2.5,0,2.5µM Mk2i,HCT116,wes,NA,pCDC25C_Ser216,1.001
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,wes,NA,pCDC25C_Ser216,0.884
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,wes,NA,pCDC25C_Ser216,0.655
+0,0,42,42µM etoposide (2h),HCT116,wes,NA,pCDC25C_Ser216,0.764
+0,0,0,DMSO,SW620,wes,NA,pCDC25C_Ser216,1
+0.5,0,0,0.5µM Chk1i,SW620,wes,NA,pCDC25C_Ser216,1.1
+1,0,0,1µM Chk1i,SW620,wes,NA,pCDC25C_Ser216,0.971
+0,2.5,0,2.5µM Mk2i,SW620,wes,NA,pCDC25C_Ser216,1.247
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,wes,NA,pCDC25C_Ser216,1.017
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,wes,NA,pCDC25C_Ser216,0.695
+0,0,42,42µM etoposide (2h),SW620,wes,NA,pCDC25C_Ser216,1.008
+0,0,0,DMSO,SW948,wes,NA,pCDC25C_Ser216,1
+0.5,0,0,0.5µM Chk1i,SW948,wes,NA,pCDC25C_Ser216,1.215
+1,0,0,1µM Chk1i,SW948,wes,NA,pCDC25C_Ser216,1.326
+0,2.5,0,2.5µM Mk2i,SW948,wes,NA,pCDC25C_Ser216,1.227
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,wes,NA,pCDC25C_Ser216,0.826
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,wes,NA,pCDC25C_Ser216,1.098
+0,0,42,42µM etoposide (2h),SW948,wes,NA,pCDC25C_Ser216,1.812
+0,0,0,DMSO,HCT116,wes,NA,pChk2_Thr68,1
+0.5,0,0,0.5µM Chk1i,HCT116,wes,NA,pChk2_Thr68,1.804
+1,0,0,1µM Chk1i,HCT116,wes,NA,pChk2_Thr68,1.345
+0,2.5,0,2.5µM Mk2i,HCT116,wes,NA,pChk2_Thr68,1.204
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,wes,NA,pChk2_Thr68,1.369
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,wes,NA,pChk2_Thr68,1.252
+0,0,42,42µM etoposide (2h),HCT116,wes,NA,pChk2_Thr68,3.851
+0,0,0,DMSO,SW620,wes,NA,pChk2_Thr68,1
+0.5,0,0,0.5µM Chk1i,SW620,wes,NA,pChk2_Thr68,1.164
+1,0,0,1µM Chk1i,SW620,wes,NA,pChk2_Thr68,1.146
+0,2.5,0,2.5µM Mk2i,SW620,wes,NA,pChk2_Thr68,0.869
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,wes,NA,pChk2_Thr68,1.161
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,wes,NA,pChk2_Thr68,1.492
+0,0,42,42µM etoposide (2h),SW620,wes,NA,pChk2_Thr68,1.113
+0,0,0,DMSO,SW948,wes,NA,pChk2_Thr68,1
+0.5,0,0,0.5µM Chk1i,SW948,wes,NA,pChk2_Thr68,1.262
+1,0,0,1µM Chk1i,SW948,wes,NA,pChk2_Thr68,1.149
+0,2.5,0,2.5µM Mk2i,SW948,wes,NA,pChk2_Thr68,0.912
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,wes,NA,pChk2_Thr68,1.04
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,wes,NA,pChk2_Thr68,1.384
+0,0,42,42µM etoposide (2h),SW948,wes,NA,pChk2_Thr68,19.216
+0,0,0,DMSO,HCT116,wes,NA,pP38_Thr180_Tyr182,1
+0.5,0,0,0.5µM Chk1i,HCT116,wes,NA,pP38_Thr180_Tyr182,6.459
+1,0,0,1µM Chk1i,HCT116,wes,NA,pP38_Thr180_Tyr182,5.273
+0,2.5,0,2.5µM Mk2i,HCT116,wes,NA,pP38_Thr180_Tyr182,3.009
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,wes,NA,pP38_Thr180_Tyr182,8.964
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,wes,NA,pP38_Thr180_Tyr182,10.534
+0,0,42,42µM etoposide (2h),HCT116,wes,NA,pP38_Thr180_Tyr182,8.101
+0,0,0,DMSO,SW620,wes,NA,pP38_Thr180_Tyr182,1
+0.5,0,0,0.5µM Chk1i,SW620,wes,NA,pP38_Thr180_Tyr182,1.211
+1,0,0,1µM Chk1i,SW620,wes,NA,pP38_Thr180_Tyr182,1.099
+0,2.5,0,2.5µM Mk2i,SW620,wes,NA,pP38_Thr180_Tyr182,1.772
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,wes,NA,pP38_Thr180_Tyr182,1.554
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,wes,NA,pP38_Thr180_Tyr182,1.78
+0,0,42,42µM etoposide (2h),SW620,wes,NA,pP38_Thr180_Tyr182,2.715
+0,0,0,DMSO,SW948,wes,NA,pP38_Thr180_Tyr182,1
+0.5,0,0,0.5µM Chk1i,SW948,wes,NA,pP38_Thr180_Tyr182,0.896
+1,0,0,1µM Chk1i,SW948,wes,NA,pP38_Thr180_Tyr182,1.211
+0,2.5,0,2.5µM Mk2i,SW948,wes,NA,pP38_Thr180_Tyr182,1.319
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,wes,NA,pP38_Thr180_Tyr182,0.763
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,wes,NA,pP38_Thr180_Tyr182,0.795
+0,0,42,42µM etoposide (2h),SW948,wes,NA,pP38_Thr180_Tyr182,2.332
+0,0,0,DMSO,HCT116,facs,24,Cleaved_Caspase_3_24h,17
+0.5,0,0,0.5µM Chk1i,HCT116,facs,24,Cleaved_Caspase_3_24h,17.6
+1,0,0,1µM Chk1i,HCT116,facs,24,Cleaved_Caspase_3_24h,29.5
+0,2.5,0,2.5µM Mk2i,HCT116,facs,24,Cleaved_Caspase_3_24h,13
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,facs,24,Cleaved_Caspase_3_24h,24.4
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,facs,24,Cleaved_Caspase_3_24h,29.3
+0,0,42,42µM etoposide (2h),HCT116,facs,24,Cleaved_Caspase_3_24h,NA
+0,0,0,DMSO,SW620,facs,24,Cleaved_Caspase_3_24h,0.72
+0.5,0,0,0.5µM Chk1i,SW620,facs,24,Cleaved_Caspase_3_24h,1.1
+1,0,0,1µM Chk1i,SW620,facs,24,Cleaved_Caspase_3_24h,4.13
+0,2.5,0,2.5µM Mk2i,SW620,facs,24,Cleaved_Caspase_3_24h,0.85
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,facs,24,Cleaved_Caspase_3_24h,6.41
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,facs,24,Cleaved_Caspase_3_24h,15.5
+0,0,42,42µM etoposide (2h),SW620,facs,24,Cleaved_Caspase_3_24h,NA
+0,0,0,DMSO,SW948,facs,24,Cleaved_Caspase_3_24h,18.3
+0.5,0,0,0.5µM Chk1i,SW948,facs,24,Cleaved_Caspase_3_24h,36.3
+1,0,0,1µM Chk1i,SW948,facs,24,Cleaved_Caspase_3_24h,18.7
+0,2.5,0,2.5µM Mk2i,SW948,facs,24,Cleaved_Caspase_3_24h,51.6
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,facs,24,Cleaved_Caspase_3_24h,37.7
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,facs,24,Cleaved_Caspase_3_24h,39.4
+0,0,42,42µM etoposide (2h),SW948,facs,24,Cleaved_Caspase_3_24h,NA
+0,0,0,DMSO,HCT116,facs,48,Cleaved_Caspase_3_48h,5.93
+0.5,0,0,0.5µM Chk1i,HCT116,facs,48,Cleaved_Caspase_3_48h,17.3
+1,0,0,1µM Chk1i,HCT116,facs,48,Cleaved_Caspase_3_48h,24.6
+0,2.5,0,2.5µM Mk2i,HCT116,facs,48,Cleaved_Caspase_3_48h,4.22
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,facs,48,Cleaved_Caspase_3_48h,31.4
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,facs,48,Cleaved_Caspase_3_48h,36
+0,0,42,42µM etoposide (2h),HCT116,facs,48,Cleaved_Caspase_3_48h,NA
+0,0,0,DMSO,SW620,facs,48,Cleaved_Caspase_3_48h,0.52
+0.5,0,0,0.5µM Chk1i,SW620,facs,48,Cleaved_Caspase_3_48h,1.05
+1,0,0,1µM Chk1i,SW620,facs,48,Cleaved_Caspase_3_48h,4.21
+0,2.5,0,2.5µM Mk2i,SW620,facs,48,Cleaved_Caspase_3_48h,1.08
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,facs,48,Cleaved_Caspase_3_48h,5.97
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,facs,48,Cleaved_Caspase_3_48h,14.3
+0,0,42,42µM etoposide (2h),SW620,facs,48,Cleaved_Caspase_3_48h,NA
+0,0,0,DMSO,SW948,facs,48,Cleaved_Caspase_3_48h,25.3
+0.5,0,0,0.5µM Chk1i,SW948,facs,48,Cleaved_Caspase_3_48h,49.8
+1,0,0,1µM Chk1i,SW948,facs,48,Cleaved_Caspase_3_48h,37.6
+0,2.5,0,2.5µM Mk2i,SW948,facs,48,Cleaved_Caspase_3_48h,40.5
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,facs,48,Cleaved_Caspase_3_48h,48.1
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,facs,48,Cleaved_Caspase_3_48h,49.6
+0,0,42,42µM etoposide (2h),SW948,facs,48,Cleaved_Caspase_3_48h,NA
+0,0,0,DMSO,HCT116,facs,72,Cleaved_Caspase_3_72h,4.41
+0.5,0,0,0.5µM Chk1i,HCT116,facs,72,Cleaved_Caspase_3_72h,14.3
+1,0,0,1µM Chk1i,HCT116,facs,72,Cleaved_Caspase_3_72h,37.1
+0,2.5,0,2.5µM Mk2i,HCT116,facs,72,Cleaved_Caspase_3_72h,3.59
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,facs,72,Cleaved_Caspase_3_72h,31.3
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,facs,72,Cleaved_Caspase_3_72h,38.5
+0,0,42,42µM etoposide (2h),HCT116,facs,72,Cleaved_Caspase_3_72h,3.64
+0,0,0,DMSO,SW620,facs,72,Cleaved_Caspase_3_72h,0.24
+0.5,0,0,0.5µM Chk1i,SW620,facs,72,Cleaved_Caspase_3_72h,1.21
+1,0,0,1µM Chk1i,SW620,facs,72,Cleaved_Caspase_3_72h,5.07
+0,2.5,0,2.5µM Mk2i,SW620,facs,72,Cleaved_Caspase_3_72h,0.95
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,facs,72,Cleaved_Caspase_3_72h,2.21
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,facs,72,Cleaved_Caspase_3_72h,17.5
+0,0,42,42µM etoposide (2h),SW620,facs,72,Cleaved_Caspase_3_72h,0.63
+0,0,0,DMSO,SW948,facs,72,Cleaved_Caspase_3_72h,13.8
+0.5,0,0,0.5µM Chk1i,SW948,facs,72,Cleaved_Caspase_3_72h,13.8
+1,0,0,1µM Chk1i,SW948,facs,72,Cleaved_Caspase_3_72h,28.9
+0,2.5,0,2.5µM Mk2i,SW948,facs,72,Cleaved_Caspase_3_72h,12.9
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,facs,72,Cleaved_Caspase_3_72h,31.1
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,facs,72,Cleaved_Caspase_3_72h,45
+0,0,42,42µM etoposide (2h),SW948,facs,72,Cleaved_Caspase_3_72h,10
+0,0,0,DMSO,HCT116,facs,24,pHistone_H3_24h,8.31
+0.5,0,0,0.5µM Chk1i,HCT116,facs,24,pHistone_H3_24h,10.2
+1,0,0,1µM Chk1i,HCT116,facs,24,pHistone_H3_24h,3.62
+0,2.5,0,2.5µM Mk2i,HCT116,facs,24,pHistone_H3_24h,3.24
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,facs,24,pHistone_H3_24h,4.88
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,facs,24,pHistone_H3_24h,0.31
+0,0,42,42µM etoposide (2h),HCT116,facs,24,pHistone_H3_24h,NA
+0,0,0,DMSO,SW620,facs,24,pHistone_H3_24h,3.58
+0.5,0,0,0.5µM Chk1i,SW620,facs,24,pHistone_H3_24h,4.57
+1,0,0,1µM Chk1i,SW620,facs,24,pHistone_H3_24h,4.65
+0,2.5,0,2.5µM Mk2i,SW620,facs,24,pHistone_H3_24h,3.12
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,facs,24,pHistone_H3_24h,3.34
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,facs,24,pHistone_H3_24h,2.1
+0,0,42,42µM etoposide (2h),SW620,facs,24,pHistone_H3_24h,NA
+0,0,0,DMSO,SW948,facs,24,pHistone_H3_24h,2.84
+0.5,0,0,0.5µM Chk1i,SW948,facs,24,pHistone_H3_24h,2.69
+1,0,0,1µM Chk1i,SW948,facs,24,pHistone_H3_24h,3.78
+0,2.5,0,2.5µM Mk2i,SW948,facs,24,pHistone_H3_24h,1.16
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,facs,24,pHistone_H3_24h,2.1
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,facs,24,pHistone_H3_24h,1.69
+0,0,42,42µM etoposide (2h),SW948,facs,24,pHistone_H3_24h,NA
+0,0,0,DMSO,HCT116,facs,48,pHistone_H3_48h,2.64
+0.5,0,0,0.5µM Chk1i,HCT116,facs,48,pHistone_H3_48h,3.91
+1,0,0,1µM Chk1i,HCT116,facs,48,pHistone_H3_48h,1.62
+0,2.5,0,2.5µM Mk2i,HCT116,facs,48,pHistone_H3_48h,2.24
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,facs,48,pHistone_H3_48h,1.24
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,facs,48,pHistone_H3_48h,0.14
+0,0,42,42µM etoposide (2h),HCT116,facs,48,pHistone_H3_48h,NA
+0,0,0,DMSO,SW620,facs,48,pHistone_H3_48h,2.44
+0.5,0,0,0.5µM Chk1i,SW620,facs,48,pHistone_H3_48h,3.52
+1,0,0,1µM Chk1i,SW620,facs,48,pHistone_H3_48h,4.09
+0,2.5,0,2.5µM Mk2i,SW620,facs,48,pHistone_H3_48h,2.41
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,facs,48,pHistone_H3_48h,3.44
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,facs,48,pHistone_H3_48h,2.73
+0,0,42,42µM etoposide (2h),SW620,facs,48,pHistone_H3_48h,NA
+0,0,0,DMSO,SW948,facs,48,pHistone_H3_48h,3.97
+0.5,0,0,0.5µM Chk1i,SW948,facs,48,pHistone_H3_48h,2.78
+1,0,0,1µM Chk1i,SW948,facs,48,pHistone_H3_48h,3.26
+0,2.5,0,2.5µM Mk2i,SW948,facs,48,pHistone_H3_48h,2.48
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,facs,48,pHistone_H3_48h,2.73
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,facs,48,pHistone_H3_48h,2.79
+0,0,42,42µM etoposide (2h),SW948,facs,48,pHistone_H3_48h,NA
+0,0,0,DMSO,HCT116,facs,72,pHistone_H3_72h,2.25
+0.5,0,0,0.5µM Chk1i,HCT116,facs,72,pHistone_H3_72h,2.64
+1,0,0,1µM Chk1i,HCT116,facs,72,pHistone_H3_72h,1.05
+0,2.5,0,2.5µM Mk2i,HCT116,facs,72,pHistone_H3_72h,2.6
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,facs,72,pHistone_H3_72h,0.44
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,facs,72,pHistone_H3_72h,0.21
+0,0,42,42µM etoposide (2h),HCT116,facs,72,pHistone_H3_72h,1.59
+0,0,0,DMSO,SW620,facs,72,pHistone_H3_72h,2.22
+0.5,0,0,0.5µM Chk1i,SW620,facs,72,pHistone_H3_72h,2.81
+1,0,0,1µM Chk1i,SW620,facs,72,pHistone_H3_72h,3.08
+0,2.5,0,2.5µM Mk2i,SW620,facs,72,pHistone_H3_72h,2.59
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,facs,72,pHistone_H3_72h,3.82
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,facs,72,pHistone_H3_72h,3.9
+0,0,42,42µM etoposide (2h),SW620,facs,72,pHistone_H3_72h,0.22
+0,0,0,DMSO,SW948,facs,72,pHistone_H3_72h,3.88
+0.5,0,0,0.5µM Chk1i,SW948,facs,72,pHistone_H3_72h,4.25
+1,0,0,1µM Chk1i,SW948,facs,72,pHistone_H3_72h,3.66
+0,2.5,0,2.5µM Mk2i,SW948,facs,72,pHistone_H3_72h,3.42
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,facs,72,pHistone_H3_72h,4.59
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,facs,72,pHistone_H3_72h,3.8
+0,0,42,42µM etoposide (2h),SW948,facs,72,pHistone_H3_72h,1.73
+0,0,0,DMSO,HCT116,facs,24,yH2AX_24h,6.9
+0.5,0,0,0.5µM Chk1i,HCT116,facs,24,yH2AX_24h,16.6
+1,0,0,1µM Chk1i,HCT116,facs,24,yH2AX_24h,17
+0,2.5,0,2.5µM Mk2i,HCT116,facs,24,yH2AX_24h,3.02
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,facs,24,yH2AX_24h,19.6
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,facs,24,yH2AX_24h,25.1
+0,0,42,42µM etoposide (2h),HCT116,facs,24,yH2AX_24h,NA
+0,0,0,DMSO,SW620,facs,24,yH2AX_24h,3.76
+0.5,0,0,0.5µM Chk1i,SW620,facs,24,yH2AX_24h,13.3
+1,0,0,1µM Chk1i,SW620,facs,24,yH2AX_24h,17
+0,2.5,0,2.5µM Mk2i,SW620,facs,24,yH2AX_24h,6.63
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,facs,24,yH2AX_24h,20.3
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,facs,24,yH2AX_24h,49.6
+0,0,42,42µM etoposide (2h),SW620,facs,24,yH2AX_24h,NA
+0,0,0,DMSO,SW948,facs,24,yH2AX_24h,0.24
+0.5,0,0,0.5µM Chk1i,SW948,facs,24,yH2AX_24h,1.11
+1,0,0,1µM Chk1i,SW948,facs,24,yH2AX_24h,3.7
+0,2.5,0,2.5µM Mk2i,SW948,facs,24,yH2AX_24h,1.55
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,facs,24,yH2AX_24h,1.94
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,facs,24,yH2AX_24h,2
+0,0,42,42µM etoposide (2h),SW948,facs,24,yH2AX_24h,NA
+0,0,0,DMSO,HCT116,facs,48,yH2AX_48h,3.1
+0.5,0,0,0.5µM Chk1i,HCT116,facs,48,yH2AX_48h,22.2
+1,0,0,1µM Chk1i,HCT116,facs,48,yH2AX_48h,28.4
+0,2.5,0,2.5µM Mk2i,HCT116,facs,48,yH2AX_48h,2.61
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,facs,48,yH2AX_48h,25.1
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,facs,48,yH2AX_48h,34.9
+0,0,42,42µM etoposide (2h),HCT116,facs,48,yH2AX_48h,NA
+0,0,0,DMSO,SW620,facs,48,yH2AX_48h,2.15
+0.5,0,0,0.5µM Chk1i,SW620,facs,48,yH2AX_48h,3.66
+1,0,0,1µM Chk1i,SW620,facs,48,yH2AX_48h,8.76
+0,2.5,0,2.5µM Mk2i,SW620,facs,48,yH2AX_48h,2.73
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,facs,48,yH2AX_48h,8.83
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,facs,48,yH2AX_48h,32.4
+0,0,42,42µM etoposide (2h),SW620,facs,48,yH2AX_48h,NA
+0,0,0,DMSO,SW948,facs,48,yH2AX_48h,0.21
+0.5,0,0,0.5µM Chk1i,SW948,facs,48,yH2AX_48h,1.51
+1,0,0,1µM Chk1i,SW948,facs,48,yH2AX_48h,2.86
+0,2.5,0,2.5µM Mk2i,SW948,facs,48,yH2AX_48h,0.47
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,facs,48,yH2AX_48h,1.47
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,facs,48,yH2AX_48h,2.35
+0,0,42,42µM etoposide (2h),SW948,facs,48,yH2AX_48h,NA
+0,0,0,DMSO,HCT116,facs,72,yH2AX_72h,0.69
+0.5,0,0,0.5µM Chk1i,HCT116,facs,72,yH2AX_72h,9.63
+1,0,0,1µM Chk1i,HCT116,facs,72,yH2AX_72h,19.6
+0,2.5,0,2.5µM Mk2i,HCT116,facs,72,yH2AX_72h,0.56
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,facs,72,yH2AX_72h,19.8
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,facs,72,yH2AX_72h,21.3
+0,0,42,42µM etoposide (2h),HCT116,facs,72,yH2AX_72h,0.45
+0,0,0,DMSO,SW620,facs,72,yH2AX_72h,1.84
+0.5,0,0,0.5µM Chk1i,SW620,facs,72,yH2AX_72h,3.02
+1,0,0,1µM Chk1i,SW620,facs,72,yH2AX_72h,5.24
+0,2.5,0,2.5µM Mk2i,SW620,facs,72,yH2AX_72h,1.71
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,facs,72,yH2AX_72h,3.72
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,facs,72,yH2AX_72h,15.4
+0,0,42,42µM etoposide (2h),SW620,facs,72,yH2AX_72h,13.2
+0,0,0,DMSO,SW948,facs,72,yH2AX_72h,0.14
+0.5,0,0,0.5µM Chk1i,SW948,facs,72,yH2AX_72h,0.63
+1,0,0,1µM Chk1i,SW948,facs,72,yH2AX_72h,1.03
+0,2.5,0,2.5µM Mk2i,SW948,facs,72,yH2AX_72h,0.11
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,facs,72,yH2AX_72h,0.73
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,facs,72,yH2AX_72h,2.73
+0,0,42,42µM etoposide (2h),SW948,facs,72,yH2AX_72h,0.11
+0,0,0,DMSO,HCT116,facs,24,BrDU_G0_G1_24h,24.8
+0.5,0,0,0.5µM Chk1i,HCT116,facs,24,BrDU_G0_G1_24h,23.5
+1,0,0,1µM Chk1i,HCT116,facs,24,BrDU_G0_G1_24h,10.8
+0,2.5,0,2.5µM Mk2i,HCT116,facs,24,BrDU_G0_G1_24h,24.4
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,facs,24,BrDU_G0_G1_24h,11.3
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,facs,24,BrDU_G0_G1_24h,7.25
+0,0,42,42µM etoposide (2h),HCT116,facs,24,BrDU_G0_G1_24h,NA
+0,0,0,DMSO,SW620,facs,24,BrDU_G0_G1_24h,38.5
+0.5,0,0,0.5µM Chk1i,SW620,facs,24,BrDU_G0_G1_24h,42.4
+1,0,0,1µM Chk1i,SW620,facs,24,BrDU_G0_G1_24h,32.4
+0,2.5,0,2.5µM Mk2i,SW620,facs,24,BrDU_G0_G1_24h,31.9
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,facs,24,BrDU_G0_G1_24h,26.2
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,facs,24,BrDU_G0_G1_24h,8.67
+0,0,42,42µM etoposide (2h),SW620,facs,24,BrDU_G0_G1_24h,NA
+0,0,0,DMSO,SW948,facs,24,BrDU_G0_G1_24h,42.3
+0.5,0,0,0.5µM Chk1i,SW948,facs,24,BrDU_G0_G1_24h,40.4
+1,0,0,1µM Chk1i,SW948,facs,24,BrDU_G0_G1_24h,40.1
+0,2.5,0,2.5µM Mk2i,SW948,facs,24,BrDU_G0_G1_24h,35.1
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,facs,24,BrDU_G0_G1_24h,38.8
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,facs,24,BrDU_G0_G1_24h,33.8
+0,0,42,42µM etoposide (2h),SW948,facs,24,BrDU_G0_G1_24h,NA
+0,0,0,DMSO,HCT116,facs,48,BrDU_G0_G1_48h,25.6
+0.5,0,0,0.5µM Chk1i,HCT116,facs,48,BrDU_G0_G1_48h,26.3
+1,0,0,1µM Chk1i,HCT116,facs,48,BrDU_G0_G1_48h,13.1
+0,2.5,0,2.5µM Mk2i,HCT116,facs,48,BrDU_G0_G1_48h,26.5
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,facs,48,BrDU_G0_G1_48h,9.01
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,facs,48,BrDU_G0_G1_48h,6.68
+0,0,42,42µM etoposide (2h),HCT116,facs,48,BrDU_G0_G1_48h,NA
+0,0,0,DMSO,SW620,facs,48,BrDU_G0_G1_48h,46.7
+0.5,0,0,0.5µM Chk1i,SW620,facs,48,BrDU_G0_G1_48h,50.7
+1,0,0,1µM Chk1i,SW620,facs,48,BrDU_G0_G1_48h,44.2
+0,2.5,0,2.5µM Mk2i,SW620,facs,48,BrDU_G0_G1_48h,42.4
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,facs,48,BrDU_G0_G1_48h,32.9
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,facs,48,BrDU_G0_G1_48h,23
+0,0,42,42µM etoposide (2h),SW620,facs,48,BrDU_G0_G1_48h,NA
+0,0,0,DMSO,SW948,facs,48,BrDU_G0_G1_48h,48.9
+0.5,0,0,0.5µM Chk1i,SW948,facs,48,BrDU_G0_G1_48h,50.5
+1,0,0,1µM Chk1i,SW948,facs,48,BrDU_G0_G1_48h,47.9
+0,2.5,0,2.5µM Mk2i,SW948,facs,48,BrDU_G0_G1_48h,46.8
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,facs,48,BrDU_G0_G1_48h,54.1
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,facs,48,BrDU_G0_G1_48h,46.6
+0,0,42,42µM etoposide (2h),SW948,facs,48,BrDU_G0_G1_48h,NA
+0,0,0,DMSO,HCT116,facs,72,BrDU_G0_G1_72h,45.5
+0.5,0,0,0.5µM Chk1i,HCT116,facs,72,BrDU_G0_G1_72h,34.7
+1,0,0,1µM Chk1i,HCT116,facs,72,BrDU_G0_G1_72h,17
+0,2.5,0,2.5µM Mk2i,HCT116,facs,72,BrDU_G0_G1_72h,41.2
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,facs,72,BrDU_G0_G1_72h,9.89
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,facs,72,BrDU_G0_G1_72h,8.58
+0,0,42,42µM etoposide (2h),HCT116,facs,72,BrDU_G0_G1_72h,35.6
+0,0,0,DMSO,SW620,facs,72,BrDU_G0_G1_72h,52.7
+0.5,0,0,0.5µM Chk1i,SW620,facs,72,BrDU_G0_G1_72h,53
+1,0,0,1µM Chk1i,SW620,facs,72,BrDU_G0_G1_72h,51.2
+0,2.5,0,2.5µM Mk2i,SW620,facs,72,BrDU_G0_G1_72h,42.2
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,facs,72,BrDU_G0_G1_72h,39.3
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,facs,72,BrDU_G0_G1_72h,28.5
+0,0,42,42µM etoposide (2h),SW620,facs,72,BrDU_G0_G1_72h,51
+0,0,0,DMSO,SW948,facs,72,BrDU_G0_G1_72h,53.1
+0.5,0,0,0.5µM Chk1i,SW948,facs,72,BrDU_G0_G1_72h,53.6
+1,0,0,1µM Chk1i,SW948,facs,72,BrDU_G0_G1_72h,54.2
+0,2.5,0,2.5µM Mk2i,SW948,facs,72,BrDU_G0_G1_72h,48.4
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,facs,72,BrDU_G0_G1_72h,51.5
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,facs,72,BrDU_G0_G1_72h,49.1
+0,0,42,42µM etoposide (2h),SW948,facs,72,BrDU_G0_G1_72h,53
+0,0,0,DMSO,HCT116,facs,24,BrDU_G2_M_24h,25.2
+0.5,0,0,0.5µM Chk1i,HCT116,facs,24,BrDU_G2_M_24h,48.8
+1,0,0,1µM Chk1i,HCT116,facs,24,BrDU_G2_M_24h,72.9
+0,2.5,0,2.5µM Mk2i,HCT116,facs,24,BrDU_G2_M_24h,22.9
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,facs,24,BrDU_G2_M_24h,71.1
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,facs,24,BrDU_G2_M_24h,74.8
+0,0,42,42µM etoposide (2h),HCT116,facs,24,BrDU_G2_M_24h,NA
+0,0,0,DMSO,SW620,facs,24,BrDU_G2_M_24h,8.41
+0.5,0,0,0.5µM Chk1i,SW620,facs,24,BrDU_G2_M_24h,9.44
+1,0,0,1µM Chk1i,SW620,facs,24,BrDU_G2_M_24h,27.6
+0,2.5,0,2.5µM Mk2i,SW620,facs,24,BrDU_G2_M_24h,10.3
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,facs,24,BrDU_G2_M_24h,24.8
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,facs,24,BrDU_G2_M_24h,65.6
+0,0,42,42µM etoposide (2h),SW620,facs,24,BrDU_G2_M_24h,NA
+0,0,0,DMSO,SW948,facs,24,BrDU_G2_M_24h,22.7
+0.5,0,0,0.5µM Chk1i,SW948,facs,24,BrDU_G2_M_24h,21.7
+1,0,0,1µM Chk1i,SW948,facs,24,BrDU_G2_M_24h,23.4
+0,2.5,0,2.5µM Mk2i,SW948,facs,24,BrDU_G2_M_24h,28
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,facs,24,BrDU_G2_M_24h,26.3
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,facs,24,BrDU_G2_M_24h,29.3
+0,0,42,42µM etoposide (2h),SW948,facs,24,BrDU_G2_M_24h,NA
+0,0,0,DMSO,HCT116,facs,48,BrDU_G2_M_48h,25.4
+0.5,0,0,0.5µM Chk1i,HCT116,facs,48,BrDU_G2_M_48h,50.8
+1,0,0,1µM Chk1i,HCT116,facs,48,BrDU_G2_M_48h,71.9
+0,2.5,0,2.5µM Mk2i,HCT116,facs,48,BrDU_G2_M_48h,25.3
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,facs,48,BrDU_G2_M_48h,76.5
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,facs,48,BrDU_G2_M_48h,78.3
+0,0,42,42µM etoposide (2h),HCT116,facs,48,BrDU_G2_M_48h,NA
+0,0,0,DMSO,SW620,facs,48,BrDU_G2_M_48h,8.11
+0.5,0,0,0.5µM Chk1i,SW620,facs,48,BrDU_G2_M_48h,7.52
+1,0,0,1µM Chk1i,SW620,facs,48,BrDU_G2_M_48h,17.9
+0,2.5,0,2.5µM Mk2i,SW620,facs,48,BrDU_G2_M_48h,16
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,facs,48,BrDU_G2_M_48h,17.4
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,facs,48,BrDU_G2_M_48h,31.5
+0,0,42,42µM etoposide (2h),SW620,facs,48,BrDU_G2_M_48h,NA
+0,0,0,DMSO,SW948,facs,48,BrDU_G2_M_48h,20.7
+0.5,0,0,0.5µM Chk1i,SW948,facs,48,BrDU_G2_M_48h,20
+1,0,0,1µM Chk1i,SW948,facs,48,BrDU_G2_M_48h,23.7
+0,2.5,0,2.5µM Mk2i,SW948,facs,48,BrDU_G2_M_48h,25.8
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,facs,48,BrDU_G2_M_48h,17
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,facs,48,BrDU_G2_M_48h,24.3
+0,0,42,42µM etoposide (2h),SW948,facs,48,BrDU_G2_M_48h,NA
+0,0,0,DMSO,HCT116,facs,72,BrDU_G2_M_72h,20.2
+0.5,0,0,0.5µM Chk1i,HCT116,facs,72,BrDU_G2_M_72h,40.6
+1,0,0,1µM Chk1i,HCT116,facs,72,BrDU_G2_M_72h,64.3
+0,2.5,0,2.5µM Mk2i,HCT116,facs,72,BrDU_G2_M_72h,19.7
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,facs,72,BrDU_G2_M_72h,71.8
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,facs,72,BrDU_G2_M_72h,69.1
+0,0,42,42µM etoposide (2h),HCT116,facs,72,BrDU_G2_M_72h,22.4
+0,0,0,DMSO,SW620,facs,72,BrDU_G2_M_72h,14.3
+0.5,0,0,0.5µM Chk1i,SW620,facs,72,BrDU_G2_M_72h,9.26
+1,0,0,1µM Chk1i,SW620,facs,72,BrDU_G2_M_72h,8.91
+0,2.5,0,2.5µM Mk2i,SW620,facs,72,BrDU_G2_M_72h,8.76
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,facs,72,BrDU_G2_M_72h,14.7
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,facs,72,BrDU_G2_M_72h,29.8
+0,0,42,42µM etoposide (2h),SW620,facs,72,BrDU_G2_M_72h,13.3
+0,0,0,DMSO,SW948,facs,72,BrDU_G2_M_72h,18.8
+0.5,0,0,0.5µM Chk1i,SW948,facs,72,BrDU_G2_M_72h,20.1
+1,0,0,1µM Chk1i,SW948,facs,72,BrDU_G2_M_72h,20.7
+0,2.5,0,2.5µM Mk2i,SW948,facs,72,BrDU_G2_M_72h,22.9
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,facs,72,BrDU_G2_M_72h,23.6
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,facs,72,BrDU_G2_M_72h,22.1
+0,0,42,42µM etoposide (2h),SW948,facs,72,BrDU_G2_M_72h,19.7
+0,0,0,DMSO,HCT116,facs,24,BrDU_S_24h,47.5
+0.5,0,0,0.5µM Chk1i,HCT116,facs,24,BrDU_S_24h,21.2
+1,0,0,1µM Chk1i,HCT116,facs,24,BrDU_S_24h,9.39
+0,2.5,0,2.5µM Mk2i,HCT116,facs,24,BrDU_S_24h,50.8
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,facs,24,BrDU_S_24h,10.4
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,facs,24,BrDU_S_24h,7.22
+0,0,42,42µM etoposide (2h),HCT116,facs,24,BrDU_S_24h,NA
+0,0,0,DMSO,SW620,facs,24,BrDU_S_24h,52.7
+0.5,0,0,0.5µM Chk1i,SW620,facs,24,BrDU_S_24h,47.5
+1,0,0,1µM Chk1i,SW620,facs,24,BrDU_S_24h,38.1
+0,2.5,0,2.5µM Mk2i,SW620,facs,24,BrDU_S_24h,56.5
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,facs,24,BrDU_S_24h,46.8
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,facs,24,BrDU_S_24h,20.9
+0,0,42,42µM etoposide (2h),SW620,facs,24,BrDU_S_24h,NA
+0,0,0,DMSO,SW948,facs,24,BrDU_S_24h,29.3
+0.5,0,0,0.5µM Chk1i,SW948,facs,24,BrDU_S_24h,33.9
+1,0,0,1µM Chk1i,SW948,facs,24,BrDU_S_24h,30.3
+0,2.5,0,2.5µM Mk2i,SW948,facs,24,BrDU_S_24h,29.7
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,facs,24,BrDU_S_24h,27.2
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,facs,24,BrDU_S_24h,26.2
+0,0,42,42µM etoposide (2h),SW948,facs,24,BrDU_S_24h,NA
+0,0,0,DMSO,HCT116,facs,48,BrDU_S_48h,48.1
+0.5,0,0,0.5µM Chk1i,HCT116,facs,48,BrDU_S_48h,16.5
+1,0,0,1µM Chk1i,HCT116,facs,48,BrDU_S_48h,8.1
+0,2.5,0,2.5µM Mk2i,HCT116,facs,48,BrDU_S_48h,47
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,facs,48,BrDU_S_48h,6.6
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,facs,48,BrDU_S_48h,4.97
+0,0,42,42µM etoposide (2h),HCT116,facs,48,BrDU_S_48h,NA
+0,0,0,DMSO,SW620,facs,48,BrDU_S_48h,44.8
+0.5,0,0,0.5µM Chk1i,SW620,facs,48,BrDU_S_48h,41
+1,0,0,1µM Chk1i,SW620,facs,48,BrDU_S_48h,34.7
+0,2.5,0,2.5µM Mk2i,SW620,facs,48,BrDU_S_48h,37.2
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,facs,48,BrDU_S_48h,46.8
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,facs,48,BrDU_S_48h,37.9
+0,0,42,42µM etoposide (2h),SW620,facs,48,BrDU_S_48h,NA
+0,0,0,DMSO,SW948,facs,48,BrDU_S_48h,23.8
+0.5,0,0,0.5µM Chk1i,SW948,facs,48,BrDU_S_48h,24
+1,0,0,1µM Chk1i,SW948,facs,48,BrDU_S_48h,18.7
+0,2.5,0,2.5µM Mk2i,SW948,facs,48,BrDU_S_48h,17.2
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,facs,48,BrDU_S_48h,18.5
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,facs,48,BrDU_S_48h,15.6
+0,0,42,42µM etoposide (2h),SW948,facs,48,BrDU_S_48h,NA
+0,0,0,DMSO,HCT116,facs,72,BrDU_S_72h,33.2
+0.5,0,0,0.5µM Chk1i,HCT116,facs,72,BrDU_S_72h,17.2
+1,0,0,1µM Chk1i,HCT116,facs,72,BrDU_S_72h,9.72
+0,2.5,0,2.5µM Mk2i,HCT116,facs,72,BrDU_S_72h,37.7
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,facs,72,BrDU_S_72h,7.18
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,facs,72,BrDU_S_72h,6.63
+0,0,42,42µM etoposide (2h),HCT116,facs,72,BrDU_S_72h,34.8
+0,0,0,DMSO,SW620,facs,72,BrDU_S_72h,29
+0.5,0,0,0.5µM Chk1i,SW620,facs,72,BrDU_S_72h,36.7
+1,0,0,1µM Chk1i,SW620,facs,72,BrDU_S_72h,38.6
+0,2.5,0,2.5µM Mk2i,SW620,facs,72,BrDU_S_72h,48.8
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,facs,72,BrDU_S_72h,43.2
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,facs,72,BrDU_S_72h,34.3
+0,0,42,42µM etoposide (2h),SW620,facs,72,BrDU_S_72h,32.5
+0,0,0,DMSO,SW948,facs,72,BrDU_S_72h,24
+0.5,0,0,0.5µM Chk1i,SW948,facs,72,BrDU_S_72h,20.6
+1,0,0,1µM Chk1i,SW948,facs,72,BrDU_S_72h,18.9
+0,2.5,0,2.5µM Mk2i,SW948,facs,72,BrDU_S_72h,23.7
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,facs,72,BrDU_S_72h,16.3
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,facs,72,BrDU_S_72h,17.5
+0,0,42,42µM etoposide (2h),SW948,facs,72,BrDU_S_72h,22.6
+0,0,0,DMSO,HCT116,facs,24,BrDU_S_arrest_24h,1.71
+0.5,0,0,0.5µM Chk1i,HCT116,facs,24,BrDU_S_arrest_24h,6.24
+1,0,0,1µM Chk1i,HCT116,facs,24,BrDU_S_arrest_24h,6.7
+0,2.5,0,2.5µM Mk2i,HCT116,facs,24,BrDU_S_arrest_24h,1.63
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,facs,24,BrDU_S_arrest_24h,7.02
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,facs,24,BrDU_S_arrest_24h,10.5
+0,0,42,42µM etoposide (2h),HCT116,facs,24,BrDU_S_arrest_24h,NA
+0,0,0,DMSO,SW620,facs,24,BrDU_S_arrest_24h,0.41
+0.5,0,0,0.5µM Chk1i,SW620,facs,24,BrDU_S_arrest_24h,0.69
+1,0,0,1µM Chk1i,SW620,facs,24,BrDU_S_arrest_24h,2.07
+0,2.5,0,2.5µM Mk2i,SW620,facs,24,BrDU_S_arrest_24h,1.36
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,facs,24,BrDU_S_arrest_24h,2.52
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,facs,24,BrDU_S_arrest_24h,5.24
+0,0,42,42µM etoposide (2h),SW620,facs,24,BrDU_S_arrest_24h,NA
+0,0,0,DMSO,SW948,facs,24,BrDU_S_arrest_24h,6.29
+0.5,0,0,0.5µM Chk1i,SW948,facs,24,BrDU_S_arrest_24h,4.48
+1,0,0,1µM Chk1i,SW948,facs,24,BrDU_S_arrest_24h,6.91
+0,2.5,0,2.5µM Mk2i,SW948,facs,24,BrDU_S_arrest_24h,7.98
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,facs,24,BrDU_S_arrest_24h,8.77
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,facs,24,BrDU_S_arrest_24h,11.6
+0,0,42,42µM etoposide (2h),SW948,facs,24,BrDU_S_arrest_24h,NA
+0,0,0,DMSO,HCT116,facs,48,BrDU_S_arrest_48h,0.74
+0.5,0,0,0.5µM Chk1i,HCT116,facs,48,BrDU_S_arrest_48h,6.01
+1,0,0,1µM Chk1i,HCT116,facs,48,BrDU_S_arrest_48h,6.92
+0,2.5,0,2.5µM Mk2i,HCT116,facs,48,BrDU_S_arrest_48h,1.03
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,facs,48,BrDU_S_arrest_48h,7.53
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,facs,48,BrDU_S_arrest_48h,9.7
+0,0,42,42µM etoposide (2h),HCT116,facs,48,BrDU_S_arrest_48h,NA
+0,0,0,DMSO,SW620,facs,48,BrDU_S_arrest_48h,0.45
+0.5,0,0,0.5µM Chk1i,SW620,facs,48,BrDU_S_arrest_48h,0.85
+1,0,0,1µM Chk1i,SW620,facs,48,BrDU_S_arrest_48h,3.5
+0,2.5,0,2.5µM Mk2i,SW620,facs,48,BrDU_S_arrest_48h,5.08
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,facs,48,BrDU_S_arrest_48h,3.23
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,facs,48,BrDU_S_arrest_48h,7.65
+0,0,42,42µM etoposide (2h),SW620,facs,48,BrDU_S_arrest_48h,NA
+0,0,0,DMSO,SW948,facs,48,BrDU_S_arrest_48h,7.3
+0.5,0,0,0.5µM Chk1i,SW948,facs,48,BrDU_S_arrest_48h,5.34
+1,0,0,1µM Chk1i,SW948,facs,48,BrDU_S_arrest_48h,10.5
+0,2.5,0,2.5µM Mk2i,SW948,facs,48,BrDU_S_arrest_48h,10.9
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,facs,48,BrDU_S_arrest_48h,11.3
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,facs,48,BrDU_S_arrest_48h,15
+0,0,42,42µM etoposide (2h),SW948,facs,48,BrDU_S_arrest_48h,NA
+0,0,0,DMSO,HCT116,facs,72,BrDU_S_arrest_72h,0.88
+0.5,0,0,0.5µM Chk1i,HCT116,facs,72,BrDU_S_arrest_72h,7.69
+1,0,0,1µM Chk1i,HCT116,facs,72,BrDU_S_arrest_72h,8.65
+0,2.5,0,2.5µM Mk2i,HCT116,facs,72,BrDU_S_arrest_72h,1.12
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,HCT116,facs,72,BrDU_S_arrest_72h,11.4
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,HCT116,facs,72,BrDU_S_arrest_72h,16.2
+0,0,42,42µM etoposide (2h),HCT116,facs,72,BrDU_S_arrest_72h,NA
+0,0,0,DMSO,SW620,facs,72,BrDU_S_arrest_72h,4.32
+0.5,0,0,0.5µM Chk1i,SW620,facs,72,BrDU_S_arrest_72h,1.17
+1,0,0,1µM Chk1i,SW620,facs,72,BrDU_S_arrest_72h,1.44
+0,2.5,0,2.5µM Mk2i,SW620,facs,72,BrDU_S_arrest_72h,0.37
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW620,facs,72,BrDU_S_arrest_72h,3.12
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW620,facs,72,BrDU_S_arrest_72h,8.01
+0,0,42,42µM etoposide (2h),SW620,facs,72,BrDU_S_arrest_72h,3.4
+0,0,0,DMSO,SW948,facs,72,BrDU_S_arrest_72h,4.71
+0.5,0,0,0.5µM Chk1i,SW948,facs,72,BrDU_S_arrest_72h,6.38
+1,0,0,1µM Chk1i,SW948,facs,72,BrDU_S_arrest_72h,7.58
+0,2.5,0,2.5µM Mk2i,SW948,facs,72,BrDU_S_arrest_72h,5.47
+0.5,2.5,0,0.5µM Chk1i/ 2.5µM Mk2i,SW948,facs,72,BrDU_S_arrest_72h,9.42
+1,2.5,0,1µM Chk1i/ 2.5µM Mk2i,SW948,facs,72,BrDU_S_arrest_72h,10.9
+0,0,42,42µM etoposide (2h),SW948,facs,72,BrDU_S_arrest_72h,4.59

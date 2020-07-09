@@ -1,0 +1,27 @@
+# Mihaly Koltai, 01 oct 2019
+These are the data files from Natalie that I re-downloaded from our shared google drive at
+https://drive.google.com/drive/folders/0B2MJ3KTNZU3RQUVMUkxlbnBCQm8
+This was following a teleconference on 27/september (Natalie, Christine + Emmanuel, Laurence, me) where we agreed for simplicity to have the most current version of the data all together. Natalie deleted her older files and uploaded these 3.
+
+There is a description of hypotheses from our discussions last October at:
+https://docs.google.com/document/d/12zYsuyd-YJ1BEkY27p2W41IORN2Y6x7d5VqjZGG7Ifs/edit
+
+# 02 oct 2019
+I have manually rewritten the file "all Bliss Scores - new version - Kopie.xls" into tidy format, contained in the file
+'all_Bliss_Scores_semi_tidydata.csv'. 
+Mk2i values are still column names, this will be rewritten in R.
+# 03/oct
+The dataframe was rewritten in R (script "cell_line_data_model_integration.R") into pure tidy format, saved as file "
+
+# 16/oct
+visualizing viability for 24,48 and all timepoints is on 
+~/viability/viability_data_t48h.eps
+~/viability/viability_data_t24h.eps
+~/viability/viability_data.eps
+# plots per timepoints and synergy calculations are in the subfolders named by timepoints
+
+# 18/oct
+the file "summary WES data and cell line data.xlsx" contains all the WES and FACS data, which I start visualizing now,
+with the R script ~/../KRAS_DNA_repair_model/phosphoprot_data.R
+% tidy data in ~/KRAS_DNA_repair_model/data/wes_facs/wes_facs_data_tidy.csv
+

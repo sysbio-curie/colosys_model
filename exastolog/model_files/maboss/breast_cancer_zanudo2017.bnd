@@ -1,0 +1,120 @@
+Node Alpelisib {
+  logic = Alpelisib;
+  rate_up = @logic ? $u_Alpelisib : 0;
+  rate_down = @logic ? 0 : $d_Alpelisib;
+}
+
+Node Everolimus {
+  logic = 	Everolimus;
+  rate_up = @logic ? $u_Everolimus : 0;
+  rate_down = @logic ? 0 : $d_Everolimus;
+}
+
+Node PI3K {
+  logic = 	PI3K&!Alpelisib;
+  rate_up = @logic ? $u_PI3K : 0;
+  rate_down = @logic ? 0 : $d_PI3K;
+}
+
+Node PDK1_pm {
+  logic = 	PI3K;
+  rate_up = @logic ? $u_PDK1_pm : 0;
+  rate_down = @logic ? 0 : $d_PDK1_pm;
+}
+
+Node mTORC2_pm {
+  logic = 	PI3K&!Everolimus;
+  rate_up = @logic ? $u_mTORC2_pm : 0;
+  rate_down = @logic ? 0 : $d_mTORC2_pm;
+}
+
+Node AKT {
+  logic = 	PI3K&(PDK1_pm|mTORC2_pm);
+  rate_up = @logic ? $u_AKT : 0;
+  rate_down = @logic ? 0 : $d_AKT;
+}
+
+Node PIM {
+  logic = 	PIM;
+  rate_up = @logic ? $u_PIM : 0;
+  rate_down = @logic ? 0 : $d_PIM;
+}
+
+Node PDK1 {
+  logic = PDK1;
+  rate_up = @logic ? $u_PDK1 : 0;
+  rate_down = @logic ? 0 : $d_PDK1;
+}
+
+Node mTORC2 {
+  logic = mTORC2&!Everolimus;
+  rate_up = @logic ? $u_mTORC2 : 0;
+  rate_down = @logic ? 0 : $d_mTORC2;
+}
+
+Node SGK1 {
+  logic = 	PDK1&mTORC2;
+  rate_up = @logic ? $u_SGK1 : 0;
+  rate_down = @logic ? 0 : $d_SGK1;
+}
+
+Node FOXO3 {
+  logic = 	!AKT&!SGK1&!PIM;
+  rate_up = @logic ? $u_FOXO3 : 0;
+  rate_down = @logic ? 0 : $d_FOXO3;
+}
+
+Node PRAS40 {
+  logic = 	!AKT&!PIM;
+  rate_up = @logic ? $u_PRAS40 : 0;
+  rate_down = @logic ? 0 : $d_PRAS40;
+}
+
+Node TSC {
+  logic = 	!AKT&!SGK1;
+  rate_up = @logic ? $u_TSC : 0;
+  rate_down = @logic ? 0 : $d_TSC;
+}
+
+Node p21_p27 {
+  logic = 	FOXO3&(!AKT&!PIM);
+  rate_up = @logic ? $u_p21_p27 : 0;
+  rate_down = @logic ? 0 : $d_p21_p27;
+}
+
+Node cycE_CDK2 {
+  logic = 	!p21_p27;
+  rate_up = @logic ? $u_cycE_CDK2 : 0;
+  rate_down = @logic ? 0 : $d_cycE_CDK2;
+}
+
+Node BIM {
+  logic = 	FOXO3;
+  rate_up = @logic ? $u_BIM : 0;
+  rate_down = @logic ? 0 : $d_BIM;
+}
+
+Node BAD {
+  logic = 	!AKT&!PIM;
+  rate_up = @logic ? $u_BAD : 0;
+  rate_down = @logic ? 0 : $d_BAD;
+}
+
+Node mTORC1 {
+  logic = 	(!TSC|!PRAS40)&!Everolimus;
+  rate_up = @logic ? $u_mTORC1 : 0;
+  rate_down = @logic ? 0 : $d_mTORC1;
+}
+
+Node Proliferation {
+  logic = 	(cycE_CDK2|mTORC1)&!Apoptosis;
+  rate_up = @logic ? $u_Proliferation : 0;
+  rate_down = @logic ? 0 : $d_Proliferation;
+}
+
+Node Apoptosis {
+  logic = 	Apoptosis|(BIM&BAD&!mTORC1);
+  rate_up = @logic ? $u_Apoptosis : 0;
+  rate_down = @logic ? 0 : $d_Apoptosis;
+}
+

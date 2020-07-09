@@ -1,0 +1,16 @@
+targets,	factors
+KRAS,	KRAS & !MEK_ERK
+BRAF,	KRAS & !MEK_ERK
+MEK_ERK,	BRAF & !P38
+P38,	(BRAF | ATM_ATR_DNArep) & !TP53
+CHEK1,	(ATM_ATR_DNArep | P38)
+CHEK2,	ATM_ATR_DNArep
+TP53,	CHEK2 & ATM_ATR_DNArep
+MAPKAPK2,	P38 | ATM_ATR_DNArep
+CDC25A,	(BRAF | MEK_ERK | P38) & (!CHEK1 & !MAPKAPK2)
+CDC25B_C,   !P38 & !CHEK1 & !MAPKAPK2 & CDK1
+CDK1,   CDC25A | CDC25B_C
+DSB_SSB,	DSB_SSB & !ATM_ATR_DNArep
+ATM_ATR_DNArep,	DSB_SSB
+Proliferation,	Proliferation | (CDK1 & !TP53)
+cell_death,	cell_death | (DSB_SSB & Proliferation) | (DSB_SSB & TP53)

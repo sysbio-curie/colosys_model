@@ -1,0 +1,6 @@
+target	interaction	source
+AKT	-1	ATM
+AKT1	-1	ATM
+ITPR1	-1	PRKACA
+PRKACA	1	AKT
+PRKACA	1	AKT1

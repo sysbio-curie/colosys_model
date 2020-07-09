@@ -1,0 +1,63 @@
+# this folder contains R scripts for connecting nodes via the SIGNOR network,
+# the networks defined by this extraction, and the network provided to us by Charite
+
+# the R scripts
+~/research/models/KRAS_DNA_repair_model/network_paths/pathfinder_functions.R
+~/research/models/KRAS_DNA_repair_model/network_paths/pathfinder.R
+# are the code to connect 2 groups of nodes with 1,2,3 intermediate, and the functions that do this
+
+# the original 15-node model is shown in
+~/research/models/KRAS_DNA_repair_model/network_paths/kras15nodes.png
+~/research/models/KRAS_DNA_repair_model/network_paths/kras15_influence_graph.png
+# and the SIF is 
+~/research/models/KRAS_DNA_repair_model/network_paths/krasmodel15vars.csv
+
+# the csv file
+~/research/models/KRAS_DNA_repair_model/network_paths/one_intermediate_paths.csv
+# is the output from the R scripts where i extracted paths from the SIGNOR network
+~/research/models/KRAS_DNA_repair_model/network_paths/SIGNOR_all_simplified.tsv
+# to connect the 15 node model to the genes of the new readouts and genes that were most commonly mutated
+# the results were loaded into the cytoscape session 
+~/research/models/KRAS_DNA_repair_model/network_paths/model_expansion.cys
+# and 
+~/research/models/KRAS_DNA_repair_model/network_paths/one_intermediate_paths.png
+# shows the paths from new genes -> model, but not the edges of the 15-node model itself
+# edges of the model are shown on
+~/research/models/KRAS_DNA_repair_model/network_paths/Merged_Network.png
+# the manual editing of this ~60 node network was annotated in 
+~/research/models/KRAS_DNA_repair_model/network_paths/model_editing_annotation.xlsx
+
+# the folder
+~/research/models/KRAS_DNA_repair_model/network_paths/figures
+# are figures of influence graphs from articles, annotated in 
+~/research/models/KRAS_DNA_repair_model/network_paths/figures/annotation.xls
+
+# in an email 28/october/2019 Natalie sent me their own influence graph, shown on 
+~/research/models/KRAS_DNA_repair_model/network_paths/figures/markus_network_image001.png
+# I decided to use this as a model, the SIF file is
+~/research/models/KRAS_DNA_repair_model/network_paths/markus_network_SIF.csv
+
+# the CytoScape file 
+~/research/models/KRAS_DNA_repair_model/network_paths/model_expansion.cys
+# contains the influence graph by Markus/Natalie as "markus_network_SIF.csv"
+# I edited this network by adding missing connections and removing some unconstrained nodes 
+# the edited network is 
+SIF_edited_modeling
+# to this I added positive autoloops to the nodes that describe self-sustaining states, this network is
+SIF_edited_modeling_with_autoloops
+
+# this is exported into SIF format
+~/KRAS_DNA_repair_model/network_paths/markus_network_edited_modeling_with_autoloops.sif
+# into PDF as
+SIF_edited_modeling_with_autoloops.pdf
+
+# this SIF file I manually converted into a Boolean model
+~/research/models/KRAS_DNA_repair_model/network_paths/markus_network_edited_modeling_with_autoloops.bnet
+# and the file
+~/research/models/KRAS_DNA_repair_model/network_paths/markus_network_edited_modeling_with_autoloops_logical_rules.xlsx
+# containing a few (not exhaustive) alternative rules that we can have
+
+##############
+# for the connections of DNA repair, see the files
+~/research/models/KRAS_DNA_repair_model/first_other_models/dna_repair/rodriguez_2015.bnet
+~/research/models/KRAS_DNA_repair_model/first_other_models/dna_repair/rodriguez_2015.sif

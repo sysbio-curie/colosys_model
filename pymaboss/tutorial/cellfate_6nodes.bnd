@@ -1,0 +1,35 @@
+Node kras {
+  rate_up = 0;
+  rate_down = 1;
+}
+
+Node dnadam {
+  logic = (kras|dnadam)&!dnarep;
+  rate_up = @logic ? $u_dnadam : 0;
+  rate_down = @logic ? 0 : $d_dnadam;
+}
+
+Node dnarep {
+  logic = dnadam;
+  rate_up = @logic ? $u_dnarep : 0;
+  rate_down = @logic ? 0 : $d_dnarep;
+}
+
+Node chek1 {
+  logic = dnadam;
+  rate_up = @logic ? $u_chek1 : 0;
+  rate_down = @logic ? 0 : $d_chek1;
+}
+
+Node mitosis {
+  logic = (kras&!chek1)|mitosis;
+  rate_up = @logic ? $u_mitosis : 0;
+  rate_down = @logic ? 0 : $d_mitosis;
+}
+
+Node celldeath {
+  logic = (mitosis&dnadam)|celldeath;
+  rate_up = @logic ? $u_celldeath : 0;
+  rate_down = @logic ? 0 : $d_celldeath;
+}
+

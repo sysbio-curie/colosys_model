@@ -1,0 +1,314 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="800" height="648" id="menthaGraphStagegraphArea" version="1.1"><g transform="translate(40,34) scale(0.9)" clip-path="url(#clipRect)"><defs><style type="text/css"><![CDATA[
+
+path.link {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #666;
+	stroke-width: 2px;
+        pointer-events:stroke;
+}
+path.link-undefined {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #666;
+	stroke-width: 2px;
+	stroke-dasharray: 10;
+        pointer-events:stroke;
+}
+/* Unknown */ 
+path.link-unknown {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0;
+	stroke: #777777;
+	stroke-width: 2px;
+        pointer-events:stroke;
+}
+path.link-bind-unknown {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0;
+	stroke: #777777;
+	stroke-width: 2px;
+	stroke-dasharray:5 5;
+        pointer-events:stroke;
+}
+path.link-undefined-unknown {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #777777;
+	stroke-width: 2px;
+	stroke-dasharray: 15 15;
+        pointer-events:stroke;
+}
+path.link-transcription-unknown {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.1;
+	stroke: #77777766;
+	stroke-width: 2px;
+	stroke-dasharray:5 5;
+        pointer-events:stroke;
+}
+/* Activations */ 
+path.link-activation {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0;
+	stroke: #0066CC;
+	stroke-width: 2px;
+	pointer-events:stroke;
+}
+path.link-bind-activation {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0;
+	stroke: #0066CC;
+	stroke-width: 2px;
+	stroke-dasharray:5 5;
+	pointer-events:stroke;
+}
+path.link-undefined-activation {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #0066CC;
+	stroke-width: 2px;
+	stroke-dasharray: 15 15;
+        pointer-events:stroke;
+}
+path.link-transcription-activation {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0;
+	stroke: #0066CC;
+	stroke-width: 2px;
+	stroke-dasharray:5 5;
+	stroke-opacity: 0.3;
+        pointer-events:stroke;
+}
+/* Inhibitions */ 
+path.link-inhibition {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #FF3333;
+	stroke-width: 2px;
+        pointer-events:stroke;
+}
+path.link-bind-inhibition {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #FF3333;
+	stroke-width: 2px;
+	stroke-dasharray:5 5;
+        pointer-events:stroke;
+}
+path.link-undefined-inhibition {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #FF3333;
+	stroke-width: 2px;
+	stroke-dasharray: 15 15;
+        pointer-events:stroke;
+}
+path.link-transcription-inhibition {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #FF3333;
+	stroke-width: 2px;
+	stroke-dasharray:5 5;
+	stroke-opacity: 0.3;
+        pointer-events:stroke;
+}
+/* Others */ 
+path.link-direct {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #000000;
+	stroke-width: 2px;
+        pointer-events:stroke;
+}
+path.link-indirect {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #000000;
+	stroke-width: 2px;
+	stroke-dasharray:8 8;
+        pointer-events:stroke;
+}
+path.link-binding {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #000000;
+	stroke-width: 2px;
+	stroke-dasharray:3 3;
+        pointer-events:stroke;
+}
+path.link-none {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #666;
+	stroke-width: 2px;
+        pointer-events:stroke;
+}
+path.link-ppi {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #0aa34a;
+	stroke-width: 2px;
+        pointer-events:stroke;
+}
+path.link-complex-formation {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #0aa34a;
+	stroke-width: 2px;
+        pointer-events:stroke;
+}
+path.link-chemical-activation {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #0066CC;
+	stroke-width: 2px;
+	/*stroke-dasharray: 0,2 1;*/
+        pointer-events:stroke;
+}
+path.link-chemical-inhibition {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #FF3333;
+	stroke-width: 2px;
+	/*stroke-dasharray: 0,2 1;*/
+        pointer-events:stroke;
+}
+path.link-smallmolecule-activation {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #0066CC;
+	stroke-width: 2px;
+	/*stroke-dasharray: 0,2 1;*/
+        pointer-events:stroke;
+}
+path.link-smallmolecule-inhibition {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #FF3333;
+	stroke-width: 2px;
+	/*stroke-dasharray: 0,2 1;*/
+        pointer-events:stroke;
+}
+/* Nodes */ 
+.nonhuman {
+	stroke: #000;
+	stroke-width: 1px;
+	fill: #FF9933;
+	z-index:10000;
+}
+
+.chemical {
+	stroke: #000;
+	stroke-width: 1px;
+	fill: #e1b68b;
+	z-index:10000;
+}
+
+.smallmolecule {
+	stroke: #000;
+	stroke-width: 1px;
+	fill: #ffc966;
+	z-index:10000;
+}
+
+.protein {
+	stroke: #000;
+	stroke-width: 1px;
+	fill: #99cc66;
+	z-index:10000;
+}
+.complex {
+	stroke: #000;
+	stroke-width: 1px;
+	fill: #708ccd;
+	z-index:10000;
+}
+.proteinfamily {
+	stroke: #000;
+	stroke-width: 1px;
+	fill: #ffffff;
+	z-index:10000;
+}
+.phenotype {
+	stroke: #000;
+	stroke-width: 1px;
+	fill: #99FF99;
+	z-index:10000;
+}
+.stimulus {
+	stroke: #000;
+	stroke-width: 1px;
+	fill: #FF9999;
+	z-index:10000;
+}
+text {
+	font: 10px sans-serif;
+	pointer-events: none;
+}
+text.plaintext {
+	fill: #000;
+	
+	font-size: 10px;
+}
+.scroll-pane
+{
+	overflow: auto;
+	color: #111;
+	width: 100%;
+	height: 85%;
+}
+.hull1 {
+	fill: grey;
+	stroke: grey;
+	stroke-width: 15px;
+	stroke-linejoin: round;
+	opacity:0.3;
+}
+.hull2 {
+	fill: red;
+	stroke: red;
+	stroke-width: 15px;
+	stroke-linejoin: round;
+	opacity:0.5;
+}
+.controlbar {
+	padding:0px;
+}
+.controlbar td {
+	padding: 0px;
+	border: 0px;
+}
+.mirna {
+		stroke: black;
+		stroke-width: 1px;
+		fill: yellow;
+		}.mirna {
+		stroke: black;
+		stroke-width: 1px;
+		fill: yellow;
+		}]]></style></defs><defs><linearGradient id="cytosol" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"></stop><stop offset="18%" style="stop-color:rgb(173,216,230);stop-opacity:1"></stop></linearGradient></defs><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><circle r="2040" stroke="black" stroke-width="2" fill="#FFFF99" cx="400" cy="2113"></circle></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><circle r="2040" stroke="black" stroke-width="2" fill="url(#cytosol)" cx="400" cy="2153.3333333333335"></circle></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><ellipse rx="816" ry="340" stroke="black" stroke-width="2" fill="#CCCCFF" cx="400" cy="850"></ellipse></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><rect x="-25000" y="620" width="50000" height="50000" style="fill:white;stroke:black;stroke-width:2;" onmousedown="selectElement(evt)"></rect></g><defs><marker id="activation" style="fill:#0066CC" viewBox="0 -5 10 10" refX="16" refY="-0.5" markerWidth="6.75" markerHeight="6.75" orient="auto"><path d="M0,-5L10,0L0,5 Z"></path></marker></defs><defs><marker id="activationbase" style="fill:#0066CC" viewBox="0 -5 10 10" refX="0" refY="-0.5" markerWidth="6.75" markerHeight="6.75" orient="auto"><path d="M0,-5L10,0L0,5 Z"></path></marker></defs><defs><marker id="inhibition" style="fill:#FF3333" viewBox="0 0 30 30" refX="15" refY="10" markerWidth="13.5" markerHeight="13.5" orient="auto"><path d="M0 0 L0 20 L5 20 L5 0 Z"></path></marker></defs><defs><marker id="inhibitionbase" style="fill:#FF3333" viewBox="0 0 30 30" refX="0" refY="10" markerWidth="13.5" markerHeight="13.5" orient="auto"><path d="M0 0 L0 20 L5 20 L5 0 Z"></path></marker></defs><defs><marker id="unknown" style="fill:#777777" viewBox="-10 -10 30 30" refX="16" refY="0" markerWidth="13.5" markerHeight="13.5" orient="auto"><circle r="6"></circle></marker></defs><defs><marker id="formation" style="fill:#0aa34a" viewBox="0 0 20 20" refX="16" refY="4" markerWidth="12" markerHeight="12" orient="auto"><rect width="8" height="8"></rect></marker></defs><defs><marker id="undefined"></marker></defs><defs><marker id="formation"></marker></defs><defs><marker id="unknown"></marker></defs><defs><marker id="complex-formation"></marker></defs><clipPath id="clipRect"><rect x="-50" y="-50" width="900" height="780"></rect></clipPath><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><path class="link-bind-inhibition" id="P42771P11802edge" marker-end="url('#inhibition')" d="M594.7658747902927,329.40443265761104A1149.3817204940424,1149.3817204940424 0 0,1 638.9875177362184,223.3137653526048"></path><path class="link-bind-inhibition" id="P42771SIGNOR-C143edge" marker-end="url('#inhibition')" d="M594.7658747902927,329.40443265761104A316.3375145816687,316.3375145816687 0 0,1 570.2443458489848,421.0829072317131"></path><path class="link-activation" id="P30304SIGNOR-C18edge" marker-end="url('#activation')" d="M413.0809063433961,225.99056983425675A1344.9852942357236,1344.9852942357236 0 0,1 547.3692784668218,218.47475121324743"></path><path class="link-activation" id="SIGNOR-C83SIGNOR-PF24edge" marker-end="url('#activation')" d="M424.1476249009631,456.90381822267574A2077.179804223343,2077.179804223343 0 0,1 216.48828124350632,461.8390368082644" style="cursor: default; stroke-width: 2px;"></path><path class="link-activation" id="P24941P24941edge" d="M419.94441346183174,370.6703191076026A15,15 0 1,1 424.94441346183174,370.6703191076026"></path><path class="link-complex-formation" id="P24941SIGNOR-C83edge" marker-end="url('#formation')" d="M424.94441346183174,370.6703191076026A862.3718015821278,862.3718015821278 0 0,1 424.1476249009631,456.90381822267574"></path><path class="link-activation" id="P30307SIGNOR-C17edge" marker-end="url('#activation')" d="M228.44358990313395,359.16622502734054A955.6739085339408,955.6739085339408 0 0,1 203.18328264417724,266.99766709293164"></path><path class="link-activation" id="P30304P24941edge" marker-end="url('#activation')" d="M413.0809063433961,225.99056983425675A1451.6532868060262,1451.6532868060262 0 0,1 424.94441346183174,370.6703191076026"></path><path class="link-activation" id="P06493P30307edge" marker-end="url('#activation')" d="M325.2006861878987,267.78959552085354A1330.8502583470852,1330.8502583470852 0 0,1 228.44358990313395,359.16622502734054"></path><path class="link-complex-formation" id="Q00534SIGNOR-C143edge" marker-end="url('#formation')" d="M657.5239300729771,382.94904962158904A317.48870353556026,317.48870353556026 0 0,1 570.2443458489848,421.0829072317131"></path><path class="link-activation" id="P24941P30307edge" marker-end="url('#activation')" d="M424.94441346183174,370.6703191076026A1968.3728772733584,1968.3728772733584 0 0,1 228.44358990313395,359.16622502734054"></path><path class="link-bind-inhibition" id="P42771SIGNOR-C18edge" marker-end="url('#inhibition')" d="M594.7658747902927,329.40443265761104A402.10324224836205,402.10324224836205 0 0,1 547.3692784668218,218.47475121324743"></path><path class="link-bind-inhibition" id="P42771Q00534edge" marker-end="url('#inhibition')" d="M594.7658747902927,329.40443265761104A824.9605753418516,824.9605753418516 0 0,1 657.5239300729771,382.94904962158904"></path><path class="link-undefined-unknown" id="SIGNOR-C83P04637edge" marker-end="url('#unknown')" d="M424.1476249009631,456.90381822267574A1571.8559536605621,1571.8559536605621 0 0,1 306.66668701171875,561.3334147135416" style="cursor: default; stroke-width: 2px;"></path><path class="link-activation" id="SIGNOR-C17P30307edge" marker-end="url('#activation')" d="M203.18328264417724,266.99766709293164A955.6739085339408,955.6739085339408 0 0,1 228.44358990313395,359.16622502734054"></path><path class="link-undefined-activation" id="Q8N726P04637edge" marker-end="url('#activation')" d="M529.0305324304442,465.11518234181625A2422.883158349617,2422.883158349617 0 0,1 306.66668701171875,561.3334147135416"></path><path class="link-activation" id="P06493P04637edge" marker-end="url('#activation')" d="M325.2006861878987,267.78959552085354A2941.283442847564,2941.283442847564 0 0,1 306.66668701171875,561.3334147135416" style="cursor: default; stroke-width: 2px;"></path><path class="link-activation" id="SIGNOR-C17P30305edge" marker-end="url('#activation')" d="M203.18328264417724,266.99766709293164A984.1404082394425,984.1404082394425 0 0,1 232.76339087549928,173.13425234405176"></path><path class="link-complex-formation" id="P11802SIGNOR-C18edge" marker-end="url('#formation')" d="M638.9875177362184,223.3137653526048A917.4594173403691,917.4594173403691 0 0,1 547.3692784668218,218.47475121324743"></path><path class="link-activation" id="SIGNOR-PF24P24941edge" marker-end="url('#activation')" d="M216.48828124350632,461.8390368082644A758.4025180646116,758.4025180646116 0 0,1 424.94441346183174,370.6703191076026" style="cursor: default; stroke-width: 2px;"></path><path class="link-activation" id="P24941P04637edge" marker-end="url('#activation')" d="M424.94441346183174,370.6703191076026A747.9010377215482,747.9010377215482 0 0,1 306.66668701171875,561.3334147135416" style="cursor: default; stroke-width: 2px;"></path><path class="link-activation" id="P30305SIGNOR-C17edge" marker-end="url('#activation')" d="M232.76339087549928,173.13425234405176A984.1404082394425,984.1404082394425 0 0,1 203.18328264417724,266.99766709293164"></path><path class="link-bind-inhibition" id="P42771P24941edge" marker-end="url('#inhibition')" d="M594.7658747902927,329.40443265761104A582.5442483168846,582.5442483168846 0 0,1 424.94441346183174,370.6703191076026" style="cursor: default; stroke-width: 2px;"></path><path class="link-activation" id="P30305P06493edge" marker-end="url('#activation')" d="M232.76339087549928,173.13425234405176A1323.037700014246,1323.037700014246 0 0,1 325.2006861878987,267.78959552085354" style="cursor: default; stroke-width: 2px;"></path><path class="link-activation" id="P30307P06493edge" marker-end="url('#activation')" d="M228.44358990313395,359.16622502734054A1330.8502583470852,1330.8502583470852 0 0,1 325.2006861878987,267.78959552085354"></path><path class="link-activation" id="P06493P30305edge" marker-end="url('#activation')" d="M325.2006861878987,267.78959552085354A1323.037700014246,1323.037700014246 0 0,1 232.76339087549928,173.13425234405176" style="cursor: default; stroke-width: 2px;"></path><path class="link-complex-formation" id="P06493SIGNOR-C17edge" marker-end="url('#formation')" d="M325.2006861878987,267.78959552085354A1220.1997343954115,1220.1997343954115 0 0,1 203.18328264417724,266.99766709293164" style="cursor: default; stroke-width: 2px;"></path><path class="link-activation" id="P06493P30304edge" marker-end="url('#activation')" d="M325.2006861878987,267.78959552085354A973.1439586683703,973.1439586683703 0 0,1 413.0809063433961,225.99056983425675"></path><path class="link-activation" id="P30304P06493edge" marker-end="url('#activation')" d="M413.0809063433961,225.99056983425675A973.1439586683703,973.1439586683703 0 0,1 325.2006861878987,267.78959552085354"></path><path class="link-inhibition" id="P24941P30304edge" marker-end="url('#inhibition')" d="M424.94441346183174,370.6703191076026A1451.6532868060262,1451.6532868060262 0 0,1 413.0809063433961,225.99056983425675"></path><path class="link-activation" id="SIGNOR-C17P30304edge" marker-end="url('#activation')" d="M203.18328264417724,266.99766709293164A427.7316656978359,427.7316656978359 0 0,1 413.0809063433961,225.99056983425675"></path></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><path class="complex" d="M -3.5380432619161e-7,-10.422110257019 A 6.470588673012,6.4705126773471 0 0 0 -6.4705890268163,-3.9515454402782 6.470588673012,6.4705126773471 0 0 0 -6.0156256696514,-1.5674331419299 6.470588673012,6.4705126773471 0 0 0 -10.784314764824,4.6758743153767 6.470588673012,6.4705126773471 0 0 0 -4.3137261358123,11.146439132118 6.470588673012,6.4705126773471 0 0 0 -0.00842569486298,9.4951383190327 6.470588673012,6.4705126773471 0 0 0 4.3137252082032,11.146439132118 6.470588673012,6.4705126773471 0 0 0 10.784314981215,4.6758743153767 6.470588673012,6.4705126773471 0 0 0 6.0071996209837,-1.5586332441786 6.470588673012,6.4705126773471 0 0 0 6.4705880992072,-3.9515454402788 6.470588673012,6.4705126773471 0 0 0 -3.5380434841829e-7,-10.42211025702 Z" id="SIGNOR-C143" transform="translate(570.2443458489848,421.0829072317131) scale(1.3,1.3)"></path><path class="complex" d="M -3.5380432619161e-7,-10.422110257019 A 6.470588673012,6.4705126773471 0 0 0 -6.4705890268163,-3.9515454402782 6.470588673012,6.4705126773471 0 0 0 -6.0156256696514,-1.5674331419299 6.470588673012,6.4705126773471 0 0 0 -10.784314764824,4.6758743153767 6.470588673012,6.4705126773471 0 0 0 -4.3137261358123,11.146439132118 6.470588673012,6.4705126773471 0 0 0 -0.00842569486298,9.4951383190327 6.470588673012,6.4705126773471 0 0 0 4.3137252082032,11.146439132118 6.470588673012,6.4705126773471 0 0 0 10.784314981215,4.6758743153767 6.470588673012,6.4705126773471 0 0 0 6.0071996209837,-1.5586332441786 6.470588673012,6.4705126773471 0 0 0 6.4705880992072,-3.9515454402788 6.470588673012,6.4705126773471 0 0 0 -3.5380434841829e-7,-10.42211025702 Z" id="SIGNOR-C18" transform="translate(547.3692784668218,218.47475121324743) scale(1.3,1.3)"></path><path class="complex" d="M -3.5380432619161e-7,-10.422110257019 A 6.470588673012,6.4705126773471 0 0 0 -6.4705890268163,-3.9515454402782 6.470588673012,6.4705126773471 0 0 0 -6.0156256696514,-1.5674331419299 6.470588673012,6.4705126773471 0 0 0 -10.784314764824,4.6758743153767 6.470588673012,6.4705126773471 0 0 0 -4.3137261358123,11.146439132118 6.470588673012,6.4705126773471 0 0 0 -0.00842569486298,9.4951383190327 6.470588673012,6.4705126773471 0 0 0 4.3137252082032,11.146439132118 6.470588673012,6.4705126773471 0 0 0 10.784314981215,4.6758743153767 6.470588673012,6.4705126773471 0 0 0 6.0071996209837,-1.5586332441786 6.470588673012,6.4705126773471 0 0 0 6.4705880992072,-3.9515454402788 6.470588673012,6.4705126773471 0 0 0 -3.5380434841829e-7,-10.42211025702 Z" id="SIGNOR-C83" transform="translate(424.1476249009631,456.90381822267574) scale(1.3,1.3)"></path><path class="complex" d="M -3.5380432619161e-7,-10.422110257019 A 6.470588673012,6.4705126773471 0 0 0 -6.4705890268163,-3.9515454402782 6.470588673012,6.4705126773471 0 0 0 -6.0156256696514,-1.5674331419299 6.470588673012,6.4705126773471 0 0 0 -10.784314764824,4.6758743153767 6.470588673012,6.4705126773471 0 0 0 -4.3137261358123,11.146439132118 6.470588673012,6.4705126773471 0 0 0 -0.00842569486298,9.4951383190327 6.470588673012,6.4705126773471 0 0 0 4.3137252082032,11.146439132118 6.470588673012,6.4705126773471 0 0 0 10.784314981215,4.6758743153767 6.470588673012,6.4705126773471 0 0 0 6.0071996209837,-1.5586332441786 6.470588673012,6.4705126773471 0 0 0 6.4705880992072,-3.9515454402788 6.470588673012,6.4705126773471 0 0 0 -3.5380434841829e-7,-10.42211025702 Z" id="SIGNOR-C17" transform="translate(203.18328264417724,266.99766709293164) scale(1.3,1.3)"></path></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><circle r="9" id="P42771" class="protein" style="fill:#538521;" transform="translate(594.7658747902927,329.40443265761104)"></circle><circle r="9" id="P11802" class="protein" style="fill:#538521;" transform="translate(638.9875177362184,223.3137653526048)"></circle><circle r="9" id="P30304" class="protein" style="fill:#538521;" transform="translate(413.0809063433961,225.99056983425675)"></circle><circle r="9" id="SIGNOR-PF24" class="proteinfamily" transform="translate(216.48828124350632,461.8390368082644)"></circle><circle r="9" id="P24941" class="protein" style="fill:#538521;" transform="translate(424.94441346183174,370.6703191076026)"></circle><circle r="9" id="P30307" class="protein" style="fill:#538521;" transform="translate(228.44358990313395,359.16622502734054)"></circle><circle r="9" id="P06493" class="protein" style="fill:#538521;" transform="translate(325.2006861878987,267.78959552085354)"></circle><circle r="9" id="Q00534" class="protein" style="fill:#538521;" transform="translate(657.5239300729771,382.94904962158904)"></circle><circle r="9" id="P04637" class="protein" style="fill:#538521;" transform="translate(306.66668701171875,561.3334147135416)"></circle><circle r="9" id="Q8N726" class="protein" style="fill:#538521;" transform="translate(529.0305324304442,465.11518234181625)"></circle><circle r="9" id="P30305" class="protein" style="fill:#538521;" transform="translate(232.76339087549928,173.13425234405176)"></circle></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#P42771P11802edge" startOffset="50%" id="P42771-P11802-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#P42771SIGNOR-C143edge" startOffset="50%" id="P42771-SIGNOR-C143-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#P30304SIGNOR-C18edge" startOffset="50%" id="P30304-SIGNOR-C18-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#SIGNOR-C83SIGNOR-PF24edge" startOffset="50%" id="SIGNOR-C83-SIGNOR-PF24-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#P24941P24941edge" startOffset="50%" id="P24941-P24941-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#P24941SIGNOR-C83edge" startOffset="50%" id="P24941-SIGNOR-C83-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#P30307SIGNOR-C17edge" startOffset="50%" id="P30307-SIGNOR-C17-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#P30304P24941edge" startOffset="50%" id="P30304-P24941-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#P06493P30307edge" startOffset="50%" id="P06493-P30307-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#Q00534SIGNOR-C143edge" startOffset="50%" id="Q00534-SIGNOR-C143-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#P24941P30307edge" startOffset="50%" id="P24941-P30307-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#P42771SIGNOR-C18edge" startOffset="50%" id="P42771-SIGNOR-C18-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#P42771Q00534edge" startOffset="50%" id="P42771-Q00534-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#SIGNOR-C83P04637edge" startOffset="50%" id="SIGNOR-C83-P04637-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#SIGNOR-C17P30307edge" startOffset="50%" id="SIGNOR-C17-P30307-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#Q8N726P04637edge" startOffset="50%" id="Q8N726-P04637-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#P06493P04637edge" startOffset="50%" id="P06493-P04637-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#SIGNOR-C17P30305edge" startOffset="50%" id="SIGNOR-C17-P30305-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#P11802SIGNOR-C18edge" startOffset="50%" id="P11802-SIGNOR-C18-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#SIGNOR-PF24P24941edge" startOffset="50%" id="SIGNOR-PF24-P24941-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#P24941P04637edge" startOffset="50%" id="P24941-P04637-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#P30305SIGNOR-C17edge" startOffset="50%" id="P30305-SIGNOR-C17-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#P42771P24941edge" startOffset="50%" id="P42771-P24941-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#P30305P06493edge" startOffset="50%" id="P30305-P06493-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#P30307P06493edge" startOffset="50%" id="P30307-P06493-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#P06493P30305edge" startOffset="50%" id="P06493-P30305-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#P06493SIGNOR-C17edge" startOffset="50%" id="P06493-SIGNOR-C17-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#P06493P30304edge" startOffset="50%" id="P06493-P30304-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#P30304P06493edge" startOffset="50%" id="P30304-P06493-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#P24941P30304edge" startOffset="50%" id="P24941-P30304-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text><textPath xlink:href="#SIGNOR-C17P30304edge" startOffset="50%" id="SIGNOR-C17-P30304-score"></textPath></text></g><g transform="translate(-321.63480905428526,-302.0856835286619) scale(1.6471820345351462)"><text x="-15" y="2em" class="plaintext" category="protein" id="nodelabelP42771" transform="translate(594.7658747902927,329.40443265761104)">CDKN2A</text><text x="-15" y="2em" class="plaintext" category="protein" id="nodelabelP11802" transform="translate(638.9875177362184,223.3137653526048)">CDK4</text><text x="-15" y="2em" class="plaintext" category="complex" id="nodelabelSIGNOR-C143" style="font-size: 11px; stroke-width: 2px;" transform="translate(570.2443458489848,421.0829072317131)">CDK6/CCND1</text><text x="-15" y="2em" class="plaintext" category="protein" id="nodelabelP30304" style="font-size: 11px; stroke-width: 2px;" transform="translate(413.0809063433961,225.99056983425675)">CDC25A</text><text x="-15" y="2em" class="plaintext" category="complex" id="nodelabelSIGNOR-C18" style="font-size: 11px; stroke-width: 2px;" transform="translate(547.3692784668218,218.47475121324743)">CyclinD/CDK4</text><text x="-15" y="2em" class="plaintext" category="complex" id="nodelabelSIGNOR-C83" transform="translate(424.1476249009631,456.90381822267574)">CyclinA2/CDK2</text><text x="-15" y="2em" class="plaintext" category="proteinfamily" id="nodelabelSIGNOR-PF24" style="font-size: 11px; stroke-width: 2px;" transform="translate(216.48828124350632,461.8390368082644)">AKT</text><text x="-15" y="2em" class="plaintext" category="protein" id="nodelabelP24941" transform="translate(424.94441346183174,370.6703191076026)">CDK2</text><text x="-15" y="2em" class="plaintext" category="protein" id="nodelabelP30307" transform="translate(228.44358990313395,359.16622502734054)" style="font-size: 11px; stroke-width: 2px;">CDC25C</text><text x="-15" y="2em" class="plaintext" category="complex" id="nodelabelSIGNOR-C17" style="font-size: 11px; stroke-width: 2px;" transform="translate(203.18328264417724,266.99766709293164)">CyclinB/CDK1</text><text x="-15" y="2em" class="plaintext" category="protein" id="nodelabelP06493" style="font-size: 11px; stroke-width: 2px;" transform="translate(325.2006861878987,267.78959552085354)">CDK1</text><text x="-15" y="2em" class="plaintext" category="protein" id="nodelabelQ00534" style="font-size: 11px; stroke-width: 2px;" transform="translate(657.5239300729771,382.94904962158904)">CDK6</text><text x="-15" y="2em" class="plaintext" category="protein" id="nodelabelP04637" style="font-size: 11px; stroke-width: 2px;" transform="translate(306.66668701171875,561.3334147135416)">TP53</text><text x="-15" y="2em" class="plaintext" category="protein" id="nodelabelQ8N726" transform="translate(529.0305324304442,465.11518234181625)">CDKN2A</text><text x="-15" y="2em" class="plaintext" category="protein" id="nodelabelP30305" style="font-size: 11px; stroke-width: 2px;" transform="translate(232.76339087549928,173.13425234405176)">CDC25B</text></g></g><g class="legend" style="display:none" transform="matrix(1 0 0 1 0 0)" onmousedown="selectElement(evt)"><rect x="5" y="535" rx="5" ry="5" width="255" height="110" style="fill:white;stroke:black;stroke-width:1;fill-opacity:1;" category="legend" transform="matrix(1 0 0 1 0 0)" onmousedown="selectElement(evt)"></rect><circle cx="15" cy="545" r="4.5" class="protein" category="legend"></circle><text x="27" y="548" style="font-size:0.6em" category="legend">Protein</text><circle cx="15" cy="560" r="4.5" class="proteinfamily" category="legend"></circle><text x="27" y="563" style="font-size:0.6em" category="legend">Protein family</text><g transform="translate(15,575)"><path d="M -3.5380432619161e-7,-10.422110257019 A 6.470588673012,6.4705126773471 0 0 0 -6.4705890268163,-3.9515454402782 6.470588673012,6.4705126773471 0 0 0 -6.0156256696514,-1.5674331419299 6.470588673012,6.4705126773471 0 0 0 -10.784314764824,4.6758743153767 6.470588673012,6.4705126773471 0 0 0 -4.3137261358123,11.146439132118 6.470588673012,6.4705126773471 0 0 0 -0.00842569486298,9.4951383190327 6.470588673012,6.4705126773471 0 0 0 4.3137252082032,11.146439132118 6.470588673012,6.4705126773471 0 0 0 10.784314981215,4.6758743153767 6.470588673012,6.4705126773471 0 0 0 6.0071996209837,-1.5586332441786 6.470588673012,6.4705126773471 0 0 0 6.4705880992072,-3.9515454402788 6.470588673012,6.4705126773471 0 0 0 -3.5380434841829e-7,-10.42211025702 Z" transform="scale(0.6,0.6)" class="complex" category="legend"></path></g><text x="27" y="578" style="font-size:0.6em" category="legend">Complex</text><rect x="11" y="586" width="9" height="9" class="smallmolecule" category="legend"></rect><text x="27" y="593" style="font-size:0.6em" category="legend">Chemical/Molecule</text><rect x="9" y="601" width="14" height="9" class="phenotype" category="legend"></rect><text x="27" y="608" style="font-size:0.6em" category="legend">Phenotype/Stimulus</text><rect x="9" y="616" width="14" height="8" stroke="black" stroke-width="1" fill="#8F8FFF" category="legend"></rect><rect x="9" y="617" width="14" height="8" stroke="#8F8FFF" stroke-width="1.5" fill="#8F8FFF" category="legend"></rect><text x="27" y="623" style="font-size:0.6em" category="legend">Nucleus</text><rect x="9" y="631" width="14" height="8" stroke="black" stroke-width="1" fill="#FFFF99" category="legend"></rect><rect x="9" y="632" width="14" height="6" stroke="#FFFF99" stroke-width="1.5" fill="#FFFF99" category="legend"></rect><text x="27" y="638" style="font-size:0.6em" category="legend">Membrane</text><path d="M130 545 L155 545" class="link-activation" category="legend"></path><text x="160" y="548" style="font-size:0.6em" category="legend">Up-regulates</text><path d="M130 560 L155 560" class="link-inhibition" category="legend"></path><text x="160" y="563" style="font-size:0.6em" category="legend">Down-regulates</text><path d="M130 575 L155 575" class="link-complex-formation" category="legend"></path><text x="160" y="578" style="font-size:0.6em" category="legend">Physical interaction</text><path d="M130 590 L155 590" class="link-unknown" category="legend"></path><text x="160" y="593" style="font-size:0.6em" category="legend">Unknown</text><path d="M130 605 L155 605" class="link-direct" category="legend"></path><text x="160" y="608" style="font-size:0.6em" category="legend">Direct</text><path d="M130 620 L155 620" class="link-indirect" category="legend"></path><text x="160" y="623" style="font-size:0.6em" category="legend">Indirect</text><path d="M130 635 L155 635" class="link-binding" category="legend"></path><text x="160" y="638" style="font-size:0.6em" category="legend">Binding</text></g></svg>
