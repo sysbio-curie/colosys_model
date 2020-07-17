@@ -1,7 +1,0 @@
-targets,factors
-kras,
-dnadam,(kras|dnadam)&!dnarep
-dnarep,dnadam
-chek1,dnadam
-mitosis,(kras&!chek1)|mitosis
-celldeath,(mitosis&dnadam)|celldeath
