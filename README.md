@@ -44,6 +44,7 @@ I eventually switched to pymaboss since ExaStoLog was slowed down by the presenc
 ## pymaboss/
 
 *'COLOSYS.ipynb'* is the main file for running PyMaboss simulations. I do ensemble modeling in the script, ie. there are a few nodes for which there are a number of possible logical rules, then I generate all model permutations from this. These different model versions are simulated and scored by how many 'behavioral criteria' they satisfy. These are for instance how proliferation/cell death change due to the presence of the mk2i/chk1i inhibitions.
+
 *model_ens* contains the different model versions.  
 *figs* contains the figures generated from simulations.  
 *outputs* contains csv files that are model outputs from parameter scans.  
