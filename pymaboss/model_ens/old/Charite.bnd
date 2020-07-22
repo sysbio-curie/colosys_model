@@ -1,0 +1,270 @@
+Node Proliferation {
+  logic = (!CDK1 & CDK2) | (CDK1);
+  rate_up = @logic ? $u_Proliferation : 0;
+  rate_down = @logic ? 0 : $d_Proliferation;
+}
+
+Node Senescence {
+  logic = (p21);
+  rate_up = @logic ? $u_Senescence : 0;
+  rate_down = @logic ? 0 : $d_Senescence;
+}
+
+Node Apoptosis {
+  logic = (CASP3);
+  rate_up = @logic ? $u_Apoptosis : 0;
+  rate_down = @logic ? 0 : $d_Apoptosis;
+}
+
+Node FGFR {
+  logic = (FGFR);
+  rate_up = @logic ? $u_FGFR : 0;
+  rate_down = @logic ? 0 : $d_FGFR;
+}
+
+Node K_N_HRAS {
+  logic = (!FGFR & !IGFR & EGFR) | (!FGFR & IGFR) | (FGFR);
+  rate_up = @logic ? $u_K_N_HRAS : 0;
+  rate_down = @logic ? 0 : $d_K_N_HRAS;
+}
+
+Node BRAF {
+  logic = (K_N_HRAS & !ERK_1_2);
+  rate_up = @logic ? $u_BRAF : 0;
+  rate_down = @logic ? 0 : $d_BRAF;
+}
+
+Node MEK {
+  logic = (BRAF);
+  rate_up = @logic ? $u_MEK : 0;
+  rate_down = @logic ? 0 : $d_MEK;
+}
+
+Node ERK_1_2 {
+  logic = (MEK & !p38);
+  rate_up = @logic ? $u_ERK_1_2 : 0;
+  rate_down = @logic ? 0 : $d_ERK_1_2;
+}
+
+Node p38 {
+  logic = (!ATR & !TP53 & TAK1) | (ATR & !TP53);
+  rate_up = @logic ? $u_p38 : 0;
+  rate_down = @logic ? 0 : $d_p38;
+}
+
+Node CHEK1 {
+  logic = (!p38 & !ATR & !AKT & CLPSN) | (!p38 & ATR & !AKT) | (p38 & !AKT);
+  rate_up = @logic ? $u_CHEK1 : 0;
+  rate_down = @logic ? 0 : $d_CHEK1;
+}
+
+Node MK2 {
+  logic = (p38);
+  rate_up = @logic ? $u_MK2 : 0;
+  rate_down = @logic ? 0 : $d_MK2;
+}
+
+Node CDC25B_C {
+  logic = (!p38 & !CHEK1 & !MK2 & !CDK1 & PLK1) | (!p38 & !CHEK1 & !MK2 & CDK1);
+  rate_up = @logic ? $u_CDC25B_C : 0;
+  rate_down = @logic ? 0 : $d_CDC25B_C;
+}
+
+Node CDC25A {
+  logic = (!CHEK1 & !MK2 & !CDK1 & CDK2 & !CHEK2) | (!CHEK1 & !MK2 & CDK1 & !CHEK2);
+  rate_up = @logic ? $u_CDC25A : 0;
+  rate_down = @logic ? 0 : $d_CDC25A;
+}
+
+Node CDK1 {
+  logic = (!CDC25B_C & CDC25A & !Wee1 & !PKMYT1) | (CDC25B_C & !Wee1 & !PKMYT1);
+  rate_up = @logic ? $u_CDK1 : 0;
+  rate_down = @logic ? 0 : $d_CDK1;
+}
+
+Node CDK2 {
+  logic = (!CDC25A & !CDK4_6 & !TGFb & MYC) | (!CDC25A & CDK4_6 & !TGFb) | (CDC25A & !TGFb);
+  rate_up = @logic ? $u_CDK2 : 0;
+  rate_down = @logic ? 0 : $d_CDK2;
+}
+
+Node IGFR {
+  logic = (IGFR);
+  rate_up = @logic ? $u_IGFR : 0;
+  rate_down = @logic ? 0 : $d_IGFR;
+}
+
+Node EGFR {
+  logic = (!ERK_1_2 & EGF);
+  rate_up = @logic ? $u_EGFR : 0;
+  rate_down = @logic ? 0 : $d_EGFR;
+}
+
+Node JNK {
+  logic = (!ERK_1_2 & !p38 & TAK1) | (ERK_1_2 & !p38);
+  rate_up = @logic ? $u_JNK : 0;
+  rate_down = @logic ? 0 : $d_JNK;
+}
+
+Node ATR {
+  logic = (DSB_SSB);
+  rate_up = @logic ? $u_ATR : 0;
+  rate_down = @logic ? 0 : $d_ATR;
+}
+
+Node ATM {
+  logic = (DSB_SSB);
+  rate_up = @logic ? $u_ATM : 0;
+  rate_down = @logic ? 0 : $d_ATM;
+}
+
+Node CHEK2 {
+  logic = (ATM);
+  rate_up = @logic ? $u_CHEK2 : 0;
+  rate_down = @logic ? 0 : $d_CHEK2;
+}
+
+Node mTORC1 {
+  logic = (AKT);
+  rate_up = @logic ? $u_mTORC1 : 0;
+  rate_down = @logic ? 0 : $d_mTORC1;
+}
+
+Node EIF4EBP1 {
+  logic = (!mTORC1);
+  rate_up = @logic ? $u_EIF4EBP1 : 0;
+  rate_down = @logic ? 0 : $d_EIF4EBP1;
+}
+
+Node TP53 {
+  logic = (!CHEK1 & CHEK2 & !AKT) | (CHEK1 & !AKT);
+  rate_up = @logic ? $u_TP53 : 0;
+  rate_down = @logic ? 0 : $d_TP53;
+}
+
+Node p21 {
+  logic = (!ERK_1_2 & TP53 & !AKT);
+  rate_up = @logic ? $u_p21 : 0;
+  rate_down = @logic ? 0 : $d_p21;
+}
+
+Node CDK4_6 {
+  logic = (!ERK_1_2 & !p38 & !p21 & !NFkB & !CHUK & MYC) | (!ERK_1_2 & !p38 & !p21 & NFkB & !CHUK) | (!ERK_1_2 & p38 & !p21 & !CHUK) | (ERK_1_2 & !p21 & !CHUK);
+  rate_up = @logic ? $u_CDK4_6 : 0;
+  rate_down = @logic ? 0 : $d_CDK4_6;
+}
+
+Node S6 {
+  logic = (mTORC1);
+  rate_up = @logic ? $u_S6 : 0;
+  rate_down = @logic ? 0 : $d_S6;
+}
+
+Node AKT {
+  logic = (!TP53 & !PI3K & MTORC2 & !CASP3) | (!TP53 & PI3K & !CASP3);
+  rate_up = @logic ? $u_AKT : 0;
+  rate_down = @logic ? 0 : $d_AKT;
+}
+
+Node PI3K {
+  logic = (!K_N_HRAS & !TP53 & TGFb) | (K_N_HRAS & !TP53);
+  rate_up = @logic ? $u_PI3K : 0;
+  rate_down = @logic ? 0 : $d_PI3K;
+}
+
+Node MTORC2 {
+  logic = (PI3K);
+  rate_up = @logic ? $u_MTORC2 : 0;
+  rate_down = @logic ? 0 : $d_MTORC2;
+}
+
+Node EGF {
+  logic = (EGF);
+  rate_up = @logic ? $u_EGF : 0;
+  rate_down = @logic ? 0 : $d_EGF;
+}
+
+Node DSB_SSB {
+  logic = (DSB_SSB);
+  rate_up = @logic ? $u_DSB_SSB : 0;
+  rate_down = @logic ? 0 : $d_DSB_SSB;
+}
+
+Node cPARP {
+  logic = (Apoptosis);
+  rate_up = @logic ? $u_cPARP : 0;
+  rate_down = @logic ? 0 : $d_cPARP;
+}
+
+Node CC3 {
+  logic = (Apoptosis);
+  rate_up = @logic ? $u_CC3 : 0;
+  rate_down = @logic ? 0 : $d_CC3;
+}
+
+Node HSP27 {
+  logic = (MK2);
+  rate_up = @logic ? $u_HSP27 : 0;
+  rate_down = @logic ? 0 : $d_HSP27;
+}
+
+Node Wee1 {
+  logic = (!CDK1 & !PLK1);
+  rate_up = @logic ? $u_Wee1 : 0;
+  rate_down = @logic ? 0 : $d_Wee1;
+}
+
+Node PKMYT1 {
+  logic = (JNK & !PLK1);
+  rate_up = @logic ? $u_PKMYT1 : 0;
+  rate_down = @logic ? 0 : $d_PKMYT1;
+}
+
+Node NFkB {
+  logic = (!AKT & PLK1 & !CASP3 & !CHUK) | (AKT & !CASP3 & !CHUK);
+  rate_up = @logic ? $u_NFkB : 0;
+  rate_down = @logic ? 0 : $d_NFkB;
+}
+
+Node PLK1 {
+  logic = (MK2);
+  rate_up = @logic ? $u_PLK1 : 0;
+  rate_down = @logic ? 0 : $d_PLK1;
+}
+
+Node CLPSN {
+  logic = (CHEK1 & !PLK1);
+  rate_up = @logic ? $u_CLPSN : 0;
+  rate_down = @logic ? 0 : $d_CLPSN;
+}
+
+Node CASP3 {
+  logic = (!p38 & TP53 & !NFkB);
+  rate_up = @logic ? $u_CASP3 : 0;
+  rate_down = @logic ? 0 : $d_CASP3;
+}
+
+Node CHUK {
+  logic = (AKT & !TAK1);
+  rate_up = @logic ? $u_CHUK : 0;
+  rate_down = @logic ? 0 : $d_CHUK;
+}
+
+Node TGFb {
+  logic = (TGFb);
+  rate_up = @logic ? $u_TGFb : 0;
+  rate_down = @logic ? 0 : $d_TGFb;
+}
+
+Node TAK1 {
+  logic = (TGFb);
+  rate_up = @logic ? $u_TAK1 : 0;
+  rate_down = @logic ? 0 : $d_TAK1;
+}
+
+Node MYC {
+  logic = (!ERK_1_2 & !AKT & PLK1) | (!ERK_1_2 & AKT) | (ERK_1_2);
+  rate_up = @logic ? $u_MYC : 0;
+  rate_down = @logic ? 0 : $d_MYC;
+}
+
