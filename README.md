@@ -4,9 +4,7 @@
 
 ## Folders
 
-The R files in the root folder are from earlier work when I was running MaBoSS from R on the command line with a smaller KRAS model (15 nodes). I changed the approach and methods in 2019, and switched to ExaStoLog and PyMaboss. I leave the R files here as an archive.
-
-*Gene list.bublitz.xlsx* contains a list of genes
+*Gene list.bublitz.xlsx* contains a list of genes selected by collaborators to be important for the model and some information on their function etc.
 
 ## data/
 The subfolders
